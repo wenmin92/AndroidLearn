@@ -6,6 +6,36 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- 引用主题默认的样式 -->
+        <item name="customView">@style/ThemeCustomView</item>
+
+        <!-- 直接在主题中设置 -->
+        <item name="color1">#FF4444</item>
+        <item name="color2">#FF4444</item>
+        <item name="color3">#FF4444</item>
+        <item name="color4">#FF4444</item>
+        <item name="color5">#FF4444</item>
     </style>
 
+    <!-- CustomView 的默认属性, 只在 CustomView 中引用, 这里放在 styles.xml 中是因为保持统一, 放到 attrs.xml 中也可以 -->
+    <style name="CustomView">
+        <item name="color1">#FF3333</item>
+        <item name="color2">#FF3333</item>
+        <item name="color3">#FF3333</item>
+        <item name="color4">#FF3333</item>
+    </style>
+
+    <!-- theme 中使用 自定义 属性引用 -->
+    <style name="ThemeCustomView">
+        <item name="color1">#FF2222</item>
+        <item name="color2">#FF2222</item>
+        <item name="color3">#FF2222</item>
+    </style>
+
+    <!-- layout 中使用 style 属性引用 -->
+    <style name="WidgetCustomView">
+        <item name="color1">#FF1111</item>
+        <item name="color2">#FF1111</item>
+    </style>
 </resources>

@@ -3,7 +3,6 @@ package cc.wenmin92.androidlearn;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -18,6 +17,7 @@ import java.util.List;
 import cc.wenmin92.androidlearn.keyboard.KeyboardActivity;
 import cc.wenmin92.androidlearn.service.location.LocationActivity;
 import cc.wenmin92.androidlearn.view.constraint.ConstraintActivity;
+import cc.wenmin92.androidlearn.view.style.StyleActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         testItems.add(new TestItem(LocationActivity.class, "位置服务"));
         testItems.add(new TestItem(ConstraintActivity.class, "ConstraintLayout"));
         testItems.add(new TestItem(KeyboardActivity.class, "监听键盘弹起"));
+        testItems.add(new TestItem(StyleActivity.class, "Style 样式"));
         return testItems;
     }
 
