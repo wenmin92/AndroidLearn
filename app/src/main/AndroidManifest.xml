@@ -3,6 +3,7 @@
     package="cc.wenmin92.androidlearn">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:name=".MyApplication"
         android:allowBackup="true"
@@ -18,7 +19,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".service.location.LocationActivity"></activity>
+        <activity android:name=".service.location.LocationActivity" />
+        <activity android:name=".view.constraint.ConstraintActivity" />
+        <activity android:name=".keyboard.KeyboardActivity" />
+        <activity android:name=".view.style.StyleActivity"></activity>
     </application>
 
 </manifest>

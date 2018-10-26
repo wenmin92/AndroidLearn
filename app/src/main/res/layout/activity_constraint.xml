@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeee"
+    tools:context=".view.constraint.ConstraintActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/dialog_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#ffff"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1.5:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.85">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_launcher_background"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="abc11111111111111111111abc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/iv"
+            app:layout_constraintWidth_max="wrap"
+            tools:ignore="HardcodedText" />
+
+        <Button android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <!--<ScrollView-->
+        <!--android:id="@+id/layout_feature"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--app:layout_constrainedHeight="true"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHeight_default="wrap"-->
+        <!--app:layout_constraintHeight_max="120dp"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/tv1">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/feature"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="0dp"-->
+        <!--android:tag="beta_upgrade_feature"-->
+        <!--tools:text="功能发布：-->
+        <!--1. [调整] 站点管理, 有对话框的模块(设备,终端,分组,Portal), 添加或修改对话框在失败时不会关闭, 直到成功或主动关闭-->
+        <!--2. [新增] 站点管理, 各个模块列表增加搜索历史-->
+        <!--3. [新增] 站点管理, 主tab(设备,终端,WLAN)增加快捷搜索-->
+        <!--4. [调整] 支持中英文, 跟随用户系统语言设置更改-->
+        <!--5. [新增] 站点管理, 终端, 增加有线支持(无线|有线)-->
+        <!--6. [新增] 站点管理, 设备, 终端, WLAN详情支持查看相关详细信息" />-->
+        <!--</ScrollView>-->
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
