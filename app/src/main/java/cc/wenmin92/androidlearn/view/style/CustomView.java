@@ -54,11 +54,11 @@ public class CustomView extends View {
         int color4 = a.getColor(R.styleable.CustomView_color4, 0xff000000);
         int color5 = a.getColor(R.styleable.CustomView_color5, 0xff000000);
 
-        Timber.d("color1 = %s", Integer.toHexString(color1)); // 
-        Timber.d("color2 = %s", Integer.toHexString(color2)); // 
-        Timber.d("color3 = %s", Integer.toHexString(color3)); // 
-        Timber.d("color4 = %s", Integer.toHexString(color4)); // 
-        Timber.d("color5 = %s", Integer.toHexString(color5)); // 
+        Timber.d("color1 = %s", Integer.toHexString(color1)); // ffff0000
+        Timber.d("color2 = %s", Integer.toHexString(color2)); // ffff1111
+        Timber.d("color3 = %s", Integer.toHexString(color3)); // ffff2222
+        Timber.d("color4 = %s", Integer.toHexString(color4)); // ffff4444
+        Timber.d("color5 = %s", Integer.toHexString(color5)); // ffff4444
 
         a.recycle();
     }

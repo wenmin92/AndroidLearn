@@ -22,7 +22,9 @@
         <activity android:name=".service.location.LocationActivity" />
         <activity android:name=".view.constraint.ConstraintActivity" />
         <activity android:name=".keyboard.KeyboardActivity" />
-        <activity android:name=".view.style.StyleActivity"></activity>
+        <activity android:name=".view.style.StyleActivity" />
+        <activity android:name=".view.anim.AnimActivity" />
+        <activity android:name=".view.custom.CustomViewActivity" />
     </application>
 
 </manifest>

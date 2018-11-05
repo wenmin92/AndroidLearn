@@ -1,7 +1,6 @@
 package cc.wenmin92.androidlearn.service.location;
 
 import android.Manifest;
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.location.Location;
@@ -14,50 +13,54 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.content.ContextCompat;
 
-import com.tbruyelle.rxpermissions2.RxPermissions;
-
 import java.lang.ref.WeakReference;
 
 public class LocationUtil {
 
     @SuppressWarnings("unused")
     public static void getLocation(@NonNull Fragment fragment, LocationCallBack locationCallBack) {
-        doGetCurrentLocation(fragment.getContext(), new RxPermissions(fragment), locationCallBack);
+        // doGetCurrentLocation(fragment.getContext(), new RxPermissions(fragment), locationCallBack);
     }
 
     @SuppressWarnings("unused")
     public static void getLocation(@NonNull FragmentActivity activity, LocationCallBack locationCallBack) {
-        doGetCurrentLocation(activity, new RxPermissions(activity), locationCallBack);
+        //     doGetCurrentLocation(activity, new RxPermissions(activity), locationCallBack);
     }
-
-    @SuppressLint({"CheckResult", "MissingPermission"})
-    private static void doGetCurrentLocation(Context context, RxPermissions rxPermissions, LocationCallBack locationCallBack) {
-        if (locationCallBack == null || context == null) {
-            return;
-        }
-        final Context appContext = context.getApplicationContext();
-        rxPermissions
-                .requestEachCombined(Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.ACCESS_FINE_LOCATION)
-                .subscribe(permission -> {
-                    if (permission.granted || checkPermissionM(appContext)) { // 自己判断如果有权限也可
-                        // Acquire a reference to the system Location Manager
-                        LocationManager locationManager = (LocationManager) appContext.getApplicationContext().getSystemService(Context.LOCATION_SERVICE);
-                        assert locationManager != null;
-
-                        // Define a listener that responds to location updates
-                        LocationListener locationListener = new MyLocationListener(locationManager, locationCallBack);
-                        if (locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER)) {
-                            locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, locationListener);
-                        } else if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
-                            locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
-                        } else {
-                            locationCallBack.onLocationFail("no enabled provider");
-                        }
-                    } else {
-                        locationCallBack.onLocationFail("no permission");
-                    }
-                });
-    }
+    //
+    // @SuppressLint({"CheckResult", "MissingPermission"})
+    // private static void doGetCurrentLocation(Context context, RxPermissions rxPermissions, LocationCallBack
+    // locationCallBack) {
+    //     if (locationCallBack == null || context == null) {
+    //         return;
+    //     }
+    //     final Context appContext = context.getApplicationContext();
+    //     rxPermissions
+    //             .requestEachCombined(Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission
+    // .ACCESS_FINE_LOCATION)
+    //             .subscribe(permission -> {
+    //                 if (permission.granted || checkPermissionM(appContext)) { // 自己判断如果有权限也可
+    //                     // Acquire a reference to the system Location Manager
+    //                     LocationManager locationManager = (LocationManager) appContext.getApplicationContext()
+    // .getSystemService(Context.LOCATION_SERVICE);
+    //                     assert locationManager != null;
+    //
+    //                     // Define a listener that responds to location updates
+    //                     LocationListener locationListener = new MyLocationListener(locationManager,
+    // locationCallBack);
+    //                     if (locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER)) {
+    //                         locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0,
+    // locationListener);
+    //                     } else if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+    //                         locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0,
+    // locationListener);
+    //                     } else {
+    //                         locationCallBack.onLocationFail("no enabled provider");
+    //                     }
+    //                 } else {
+    //                     locationCallBack.onLocationFail("no permission");
+    //                 }
+    //             });
+    // }
 
     /**
      * 6.0 及以上时，RxPermissions可能误判为没有权限，使用原生方式再次判断是否已经拥有权限。
@@ -70,6 +73,7 @@ public class LocationUtil {
 
     public interface LocationCallBack {
         void onLocationSuccess(Location location);
+
         void onLocationFail(String msg);
     }
 

@@ -3,9 +3,6 @@ package cc.wenmin92.androidlearn;
 import android.app.Application;
 import android.support.annotation.NonNull;
 import android.util.Log;
-
-import com.squareup.leakcanary.LeakCanary;
-
 import timber.log.Timber;
 
 public class MyApplication extends Application {
@@ -21,10 +18,10 @@ public class MyApplication extends Application {
      * 内存泄漏检查
      */
     private void initLeakCanary() {
-        if (LeakCanary.isInAnalyzerProcess(this)) {
-            return;
-        }
-        LeakCanary.install(this);
+        // if (LeakCanary.isInAnalyzerProcess(this)) {
+        //     return;
+        // }
+        // LeakCanary.install(this);
     }
 
     /**

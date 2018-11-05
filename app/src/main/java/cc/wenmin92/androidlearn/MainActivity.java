@@ -16,7 +16,9 @@ import java.util.List;
 
 import cc.wenmin92.androidlearn.keyboard.KeyboardActivity;
 import cc.wenmin92.androidlearn.service.location.LocationActivity;
+import cc.wenmin92.androidlearn.view.anim.AnimActivity;
 import cc.wenmin92.androidlearn.view.constraint.ConstraintActivity;
+import cc.wenmin92.androidlearn.view.custom.CustomViewActivity;
 import cc.wenmin92.androidlearn.view.style.StyleActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -43,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
         testItems.add(new TestItem(ConstraintActivity.class, "ConstraintLayout"));
         testItems.add(new TestItem(KeyboardActivity.class, "监听键盘弹起"));
         testItems.add(new TestItem(StyleActivity.class, "Style 样式"));
+        testItems.add(new TestItem(AnimActivity.class, "anim"));
+        testItems.add(new TestItem(CustomViewActivity.class, "custom view"));
         return testItems;
     }
 
