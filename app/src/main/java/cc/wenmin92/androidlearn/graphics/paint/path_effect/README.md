@@ -83,3 +83,9 @@ Construct a PathEffect whose effect is to apply first the inner effect and the t
 CornerPathEffect(DashPathEffect())<br />![image.png](https://cdn.nlark.com/yuque/0/2019/png/213107/1548664879647-bbd915aa-ac5c-4b69-9e3c-b75c718975c1.png#align=left&display=inline&height=150&linkTarget=_blank&name=image.png&originHeight=300&originWidth=1080&size=36885&width=540)
 
 DashPathEffect(CornerPathEffect())<br />![image.png](https://cdn.nlark.com/yuque/0/2019/png/213107/1548665104086-5734d060-769c-452a-9e7e-8dcb0bad5068.png#align=left&display=inline&height=150&linkTarget=_blank&name=image.png&originHeight=300&originWidth=1080&size=39044&width=540)
+
+
+:::success
+源码：<br />[https://github.com/wenmin92/AndroidLearn/tree/master/app/src/main/java/cc/wenmin92/androidlearn/graphics/paint/path_effect](https://github.com/wenmin92/AndroidLearn/tree/master/app/src/main/java/cc/wenmin92/androidlearn/graphics/paint/path_effect)
+:::
+
