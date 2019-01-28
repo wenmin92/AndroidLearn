@@ -85,7 +85,6 @@ CornerPathEffect(DashPathEffect())<br />![image.png](https://cdn.nlark.com/yuque
 DashPathEffect(CornerPathEffect())<br />![image.png](https://cdn.nlark.com/yuque/0/2019/png/213107/1548665104086-5734d060-769c-452a-9e7e-8dcb0bad5068.png#align=left&display=inline&height=150&linkTarget=_blank&name=image.png&originHeight=300&originWidth=1080&size=39044&width=540)
 
 
-:::success
-源码：<br />[https://github.com/wenmin92/AndroidLearn/tree/master/app/src/main/java/cc/wenmin92/androidlearn/graphics/paint/path_effect](https://github.com/wenmin92/AndroidLearn/tree/master/app/src/main/java/cc/wenmin92/androidlearn/graphics/paint/path_effect)
-:::
+## 源码
+[https://github.com/wenmin92/AndroidLearn/tree/master/app/src/main/java/cc/wenmin92/androidlearn/graphics/paint/path_effect](https://github.com/wenmin92/AndroidLearn/tree/master/app/src/main/java/cc/wenmin92/androidlearn/graphics/paint/path_effect)
 
