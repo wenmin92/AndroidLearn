@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    tools:ignore="HardcodedText,Autofill,LabelFor,TextFields">
+
+    <!-- region NONE -->
+    <cc.wenmin92.androidlearn.graphics.paint.PathEffectView
+        android:id="@+id/path_effect_none"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NONE"
+        android:textColor="#f69465"
+        app:layout_constraintStart_toStartOf="@id/path_effect_none"
+        app:layout_constraintTop_toTopOf="@id/path_effect_none" />
+    <!-- endregion -->
+
+    <!-- region CornerPathEffect -->
+    <cc.wenmin92.androidlearn.graphics.paint.PathEffectView
+        android:id="@+id/path_effect_corner"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/path_effect_none" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CornerPathEffect"
+        android:textColor="#f69465"
+        app:layout_constraintStart_toStartOf="@id/path_effect_corner"
+        app:layout_constraintTop_toTopOf="@id/path_effect_corner" />
+
+    <TextView
+        android:id="@+id/tv_radius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="radius"
+        app:layout_constraintEnd_toEndOf="@id/path_effect_corner"
+        app:layout_constraintTop_toTopOf="@id/path_effect_corner" />
+
+    <SeekBar
+        android:id="@+id/seek_radius"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/path_effect_corner"
+        app:layout_constraintEnd_toEndOf="@id/path_effect_corner"
+        app:layout_constraintStart_toStartOf="@id/path_effect_corner" />
+    <!-- endregion -->
+
+    <!-- region DiscretePathEffect -->
+    <cc.wenmin92.androidlearn.graphics.paint.PathEffectView
+        android:id="@+id/path_effect_discrete"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/path_effect_corner" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DiscretePathEffect"
+        android:textColor="#f69465"
+        app:layout_constraintStart_toStartOf="@id/path_effect_discrete"
+        app:layout_constraintTop_toTopOf="@id/path_effect_discrete" />
+
+    <TextView
+        android:id="@+id/tv_segmentLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="segmentLength"
+        app:layout_constraintEnd_toEndOf="@id/path_effect_discrete"
+        app:layout_constraintTop_toTopOf="@id/path_effect_discrete" />
+
+    <TextView
+        android:id="@+id/tv_deviation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="deviation"
+        app:layout_constraintEnd_toEndOf="@id/path_effect_discrete"
+        app:layout_constraintTop_toBottomOf="@id/tv_segmentLength" />
+
+    <SeekBar
+        android:id="@+id/seek_segmentLength"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/seek_deviation"
+        app:layout_constraintEnd_toEndOf="@id/path_effect_discrete"
+        app:layout_constraintStart_toStartOf="@id/path_effect_discrete" />
+
+    <SeekBar
+        android:id="@+id/seek_deviation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/path_effect_discrete"
+        app:layout_constraintEnd_toEndOf="@id/path_effect_discrete"
+        app:layout_constraintStart_toStartOf="@id/path_effect_discrete" />
+    <!-- endregion -->
+
+    <!-- region DashPathEffect -->
+    <cc.wenmin92.androidlearn.graphics.paint.PathEffectView
+        android:id="@+id/path_effect_dash"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/path_effect_discrete" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DashPathEffect"
+        android:textColor="#f69465"
+        app:layout_constraintStart_toStartOf="@id/path_effect_dash"
+        app:layout_constraintTop_toTopOf="@id/path_effect_dash" />
+
+    <EditText
+        android:id="@+id/et_intervals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f6ebbc"
+        android:paddingStart="4dp"
+        android:paddingTop="2dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="2dp"
+        android:text="8,4"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@id/path_effect_dash"
+        app:layout_constraintTop_toTopOf="@id/path_effect_dash" />
+
+    <TextView
+        android:id="@+id/tv_intervals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:text="intervals(dp):"
+        app:layout_constraintBottom_toBottomOf="@id/et_intervals"
+        app:layout_constraintEnd_toStartOf="@id/et_intervals"
+        app:layout_constraintTop_toTopOf="@id/et_intervals" />
+
+    <TextView
+        android:id="@+id/tv_phase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="phase"
+        app:layout_constraintEnd_toEndOf="@id/path_effect_dash"
+        app:layout_constraintTop_toBottomOf="@id/et_intervals" />
+
+    <SeekBar
+        android:id="@+id/seek_phase"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/path_effect_dash"
+        app:layout_constraintEnd_toEndOf="@id/path_effect_dash"
+        app:layout_constraintStart_toStartOf="@id/path_effect_dash" />
+    <!-- endregion -->
+
+    <!-- region PathDashPathEffect -->
+    <cc.wenmin92.androidlearn.graphics.paint.PathEffectView
+        android:id="@+id/path_effect_path_dash"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/path_effect_dash" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PathDashPathEffect"
+        android:textColor="#f69465"
+        app:layout_constraintStart_toStartOf="@id/path_effect_path_dash"
+        app:layout_constraintTop_toTopOf="@id/path_effect_path_dash" />
+
+    <RadioGroup
+        android:id="@+id/rg_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@id/path_effect_path_dash"
+        app:layout_constraintTop_toTopOf="@id/path_effect_path_dash">
+
+        <RadioButton
+            android:id="@+id/rb_morph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:button="@null"
+            android:checked="true"
+            android:text="MORPH"
+            android:textColor="@color/checked_text" />
+
+        <RadioButton
+            android:id="@+id/rb_rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:button="@null"
+            android:text="ROTATE"
+            android:textColor="@color/checked_text" />
+
+        <RadioButton
+            android:id="@+id/rb_translate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:text="TRANSLATE"
+            android:textColor="@color/checked_text" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_advance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="advance"
+        app:layout_constraintEnd_toEndOf="@id/path_effect_path_dash"
+        app:layout_constraintTop_toBottomOf="@id/rg_style" />
+
+    <TextView
+        android:id="@+id/tv_phase_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="phase"
+        app:layout_constraintEnd_toEndOf="@id/path_effect_path_dash"
+        app:layout_constraintTop_toBottomOf="@id/tv_advance" />
+
+    <SeekBar
+        android:id="@+id/seek_advance"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/seek_phase_path"
+        app:layout_constraintEnd_toEndOf="@id/path_effect_path_dash"
+        app:layout_constraintStart_toStartOf="@id/path_effect_path_dash" />
+
+    <SeekBar
+        android:id="@+id/seek_phase_path"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/path_effect_path_dash"
+        app:layout_constraintEnd_toEndOf="@id/path_effect_path_dash"
+        app:layout_constraintStart_toStartOf="@id/path_effect_path_dash" />
+    <!-- endregion -->
+
+    <!-- region PathDashPathEffect -->
+    <cc.wenmin92.androidlearn.graphics.paint.PathEffectView
+        android:id="@+id/path_effect_construct"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/path_effect_path_dash" />
+
+    <TextView
+        android:id="@+id/tv_title_construct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sum / Compose PathEffect"
+        android:textColor="#f69465"
+        app:layout_constraintStart_toStartOf="@id/path_effect_construct"
+        app:layout_constraintTop_toTopOf="@id/path_effect_construct" />
+
+    <TextView
+        android:id="@+id/tv_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. CornerPathEffect\n2. DashPathEffect"
+        android:textColor="#f0ab4e"
+        app:layout_constraintStart_toStartOf="@id/path_effect_construct"
+        app:layout_constraintTop_toBottomOf="@id/tv_title_construct" />
+
+    <RadioGroup
+        android:id="@+id/rg_construct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@id/path_effect_construct"
+        app:layout_constraintTop_toTopOf="@id/path_effect_construct">
+
+        <RadioButton
+            android:id="@+id/rb_sum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:button="@null"
+            android:checked="true"
+            android:text="SUM"
+            android:textColor="@color/checked_text" />
+
+        <RadioButton
+            android:id="@+id/rb_compose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:text="COMPOSE"
+            android:textColor="@color/checked_text" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/btn_reverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:text="REVERSE"
+        app:layout_constraintEnd_toEndOf="@id/path_effect_construct"
+        app:layout_constraintTop_toBottomOf="@id/rg_construct" />
+    <!-- endregion -->
+
+</android.support.constraint.ConstraintLayout>
