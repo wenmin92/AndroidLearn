@@ -44,7 +44,7 @@ segmentLength=10dp, deviation=10dp<br />![image.png](https://cdn.nlark.com/yuque
 | **intervals** | **float:** array of ON and OFF distances |
 | **phase** | **float:** offset into the intervals array<br />整体偏移, 动态设置 phase, 可以产生蚂蚁线效果 |
 
-The **intervals** array must contain an even number of entries (>=2), with the even indices specifying the "on" intervals, and the odd indices specifying the "off" intervals.<br />**phase** is an offset into the intervals array (mod the sum of all of the intervals).<br />The **intervals**strokeWidth** controls the thickness of the dashes.<br />Note: this patheffect only affects drawing with the paint's style is set to `STROKE` or `FILL_AND_STROKE`. It is ignored if the drawing is done with style == `FILL`.
+The **intervals** array must contain an even number of entries (>=2), with the even indices specifying the "on" intervals, and the odd indices specifying the "off" intervals.<br />**phase** is an offset into the intervals array (mod the sum of all of the intervals).<br />The **intervals** array controls the length of the dashes. The paint's **strokeWidth** controls the thickness of the dashes.<br />Note: this patheffect only affects drawing with the paint's style is set to `STROKE` or `FILL_AND_STROKE`. It is ignored if the drawing is done with style == `FILL`.
 
 ![image.png](https://cdn.nlark.com/yuque/0/2019/png/213107/1548664840712-890d0f87-11ab-46d8-bc01-c6ba191a6499.png#align=left&display=inline&height=150&linkTarget=_blank&name=image.png&originHeight=300&originWidth=1080&size=38766&width=540)
 
