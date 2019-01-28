@@ -26,7 +26,7 @@
         <activity android:name=".view.style.StyleActivity" />
         <activity android:name=".view.anim.AnimActivity" />
         <activity android:name=".view.custom.CustomViewActivity" />
-        <activity android:name=".graphics.paint.PathEffectTestActivity" />
+        <activity android:name=".graphics.paint.path_effect.PathEffectTestActivity" />
     </application>
 
 </manifest>

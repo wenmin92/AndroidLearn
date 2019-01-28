@@ -1,4 +1,4 @@
-package cc.wenmin92.androidlearn.graphics.paint;
+package cc.wenmin92.androidlearn.graphics.paint.path_effect;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

@@ -14,7 +14,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import cc.wenmin92.androidlearn.graphics.paint.PathEffectTestActivity;
+import cc.wenmin92.androidlearn.graphics.paint.path_effect.PathEffectTestActivity;
 import cc.wenmin92.androidlearn.keyboard.KeyboardActivity;
 import cc.wenmin92.androidlearn.service.location.LocationActivity;
 import cc.wenmin92.androidlearn.view.anim.AnimActivity;
