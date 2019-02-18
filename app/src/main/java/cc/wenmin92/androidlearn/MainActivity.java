@@ -1,8 +1,8 @@
 package cc.wenmin92.androidlearn;
 
+import android.annotation.NonNull;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -17,6 +17,7 @@ import java.util.List;
 import cc.wenmin92.androidlearn.graphics.paint.path_effect.PathEffectTestActivity;
 import cc.wenmin92.androidlearn.keyboard.KeyboardActivity;
 import cc.wenmin92.androidlearn.service.location.LocationActivity;
+import cc.wenmin92.androidlearn.view.anim.AddViewAnimActivity;
 import cc.wenmin92.androidlearn.view.anim.AnimActivity;
 import cc.wenmin92.androidlearn.view.constraint.ConstraintActivity;
 import cc.wenmin92.androidlearn.view.custom.CustomViewActivity;
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         testItems.add(new TestItem(KeyboardActivity.class, "监听键盘弹起"));
         testItems.add(new TestItem(StyleActivity.class, "Style 样式"));
         testItems.add(new TestItem(AnimActivity.class, "anim"));
+        testItems.add(new TestItem(AddViewAnimActivity.class, "add view anim"));
         testItems.add(new TestItem(CustomViewActivity.class, "custom view"));
         testItems.add(new TestItem(PathEffectTestActivity.class, "Path Effect"));
         return testItems;

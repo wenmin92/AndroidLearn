@@ -2,7 +2,7 @@ package cc.wenmin92.androidlearn.view.custom;
 
 import android.content.Context;
 import android.graphics.Canvas;
-import android.support.annotation.Nullable;
+import android.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
