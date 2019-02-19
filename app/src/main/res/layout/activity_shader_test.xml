@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".graphics.paint.shader.ShaderTestActivity"
+    tools:ignore="HardcodedText">
+
+    <LinearLayout
+        android:id="@+id/ll_shader"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <CheckBox
+            android:id="@+id/btn_bitmap_shader"
+            style="@style/CheckBoxText"
+            android:onClick="changeShader"
+            android:text="BitmapShader" />
+
+        <CheckBox
+            android:id="@+id/btn_compose_shader"
+            style="@style/CheckBoxText"
+            android:onClick="changeShader"
+            android:text="ComposeShader" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#F5B74E" />
+
+        <CheckBox
+            android:id="@+id/btn_none"
+            style="@style/CheckBoxText"
+            android:checked="true"
+            android:onClick="changeShader"
+            android:text="Null Shader" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_gradient"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_shader">
+
+        <CheckBox
+            android:id="@+id/btn_linear_gradient"
+            style="@style/CheckBoxText"
+            android:onClick="changeShader"
+            android:text="LinearGradient" />
+
+        <CheckBox
+            android:id="@+id/btn_radial_gradient"
+            style="@style/CheckBoxText"
+            android:onClick="changeShader"
+            android:text="RadialGradient" />
+
+        <CheckBox
+            android:id="@+id/btn_sweep_gradient"
+            style="@style/CheckBoxText"
+            android:onClick="changeShader"
+            android:text="SweepGradient" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/ll_tile_mode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_gradient">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/btn_clamp"
+            style="@style/CheckBoxText"
+            android:checked="true"
+            android:onClick="changeTileMode"
+            android:text="CLAMP" />
+
+        <RadioButton
+            android:id="@+id/btn_repeat"
+            style="@style/CheckBoxText"
+            android:onClick="changeTileMode"
+            android:text="REPEAT" />
+
+        <RadioButton
+            android:id="@+id/btn_mirror"
+            style="@style/CheckBoxText"
+            android:onClick="changeTileMode"
+            android:text="MIRROR" />
+    </RadioGroup>
+
+    <cc.wenmin92.androidlearn.graphics.paint.shader.ShaderView
+        android:id="@+id/view_shader"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#EFFAE7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_tile_mode" />
+</android.support.constraint.ConstraintLayout>

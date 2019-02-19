@@ -11,6 +11,8 @@
 
         <item name="android:windowContentOverlay">@null</item>
 
+        <item name="windowNoTitle">true</item>
+
         <!-- 引用主题默认的样式 -->
         <item name="customView">@style/ThemeCustomView</item>
 
@@ -41,5 +43,22 @@
     <style name="WidgetCustomView">
         <item name="color1">#FF1111</item>
         <item name="color2">#FF1111</item>
+    </style>
+
+    <style name="CheckBoxText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:textColor">@color/checked_text</item>
+        <item name="android:button">@null</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">12sp</item>
     </style>
 </resources>
