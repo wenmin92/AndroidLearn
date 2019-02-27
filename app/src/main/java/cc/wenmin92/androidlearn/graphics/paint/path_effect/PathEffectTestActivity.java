@@ -341,13 +341,13 @@ public class PathEffectTestActivity extends AppCompatActivity {
         Bitmap returnedBitmap = Bitmap.createBitmap(view.getWidth(), view.getHeight(), Bitmap.Config.ARGB_8888);
         //Bind a canvas to it
         Canvas canvas = new Canvas(returnedBitmap);
-        //Get the view's background
+        //Get the view's background1
         Drawable bgDrawable = view.getBackground();
         if (bgDrawable != null)
-            //has background drawable, then draw it on the canvas
+            //has background1 drawable, then draw it on the canvas
             bgDrawable.draw(canvas);
         else
-            //does not have background drawable, then draw white background on the canvas
+            //does not have background1 drawable, then draw white background1 on the canvas
             canvas.drawColor(Color.TRANSPARENT);
         // draw the view on the canvas
         view.draw(canvas);

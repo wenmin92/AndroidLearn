@@ -22,6 +22,7 @@ import cc.wenmin92.androidlearn.view.anim.AddViewAnimActivity;
 import cc.wenmin92.androidlearn.view.anim.AnimActivity;
 import cc.wenmin92.androidlearn.view.constraint.ConstraintActivity;
 import cc.wenmin92.androidlearn.view.custom.CustomViewActivity;
+import cc.wenmin92.androidlearn.view.statusbar.StatusBarTestActivity;
 import cc.wenmin92.androidlearn.view.style.StyleActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -53,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
         testItems.add(new TestItem(CustomViewActivity.class, "custom view"));
         testItems.add(new TestItem(PathEffectTestActivity.class, "Paint-Path Effect"));
         testItems.add(new TestItem(ShaderTestActivity.class, "Paint-Shader"));
+        testItems.add(new TestItem(StatusBarTestActivity.class, "Status Bar"));
         return testItems;
     }
 
