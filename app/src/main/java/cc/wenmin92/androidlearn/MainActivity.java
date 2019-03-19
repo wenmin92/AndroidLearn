@@ -18,6 +18,7 @@ import cc.wenmin92.androidlearn.graphics.paint.path_effect.PathEffectTestActivit
 import cc.wenmin92.androidlearn.graphics.paint.shader.ShaderTestActivity;
 import cc.wenmin92.androidlearn.keyboard.KeyboardActivity;
 import cc.wenmin92.androidlearn.service.location.LocationActivity;
+import cc.wenmin92.androidlearn.storage.StorageTestActivity;
 import cc.wenmin92.androidlearn.view.anim.AddViewAnimActivity;
 import cc.wenmin92.androidlearn.view.anim.AnimActivity;
 import cc.wenmin92.androidlearn.view.constraint.ConstraintActivity;
@@ -55,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
         testItems.add(new TestItem(PathEffectTestActivity.class, "Paint-Path Effect"));
         testItems.add(new TestItem(ShaderTestActivity.class, "Paint-Shader"));
         testItems.add(new TestItem(StatusBarTestActivity.class, "Status Bar"));
+        testItems.add(new TestItem(StorageTestActivity.class, "Storage"));
         return testItems;
     }
 
