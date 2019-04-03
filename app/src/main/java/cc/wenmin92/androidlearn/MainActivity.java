@@ -23,6 +23,7 @@ import cc.wenmin92.androidlearn.view.anim.AddViewAnimActivity;
 import cc.wenmin92.androidlearn.view.anim.AnimActivity;
 import cc.wenmin92.androidlearn.view.constraint.ConstraintActivity;
 import cc.wenmin92.androidlearn.view.custom.CustomViewActivity;
+import cc.wenmin92.androidlearn.view.popupwindow.PopupWindowActivity;
 import cc.wenmin92.androidlearn.view.statusbar.StatusBarTestActivity;
 import cc.wenmin92.androidlearn.view.style.StyleActivity;
 
@@ -57,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
         testItems.add(new TestItem(ShaderTestActivity.class, "Paint-Shader"));
         testItems.add(new TestItem(StatusBarTestActivity.class, "Status Bar"));
         testItems.add(new TestItem(StorageTestActivity.class, "Storage"));
+        testItems.add(new TestItem(PopupWindowActivity.class, "Popup Window"));
         return testItems;
     }
 
