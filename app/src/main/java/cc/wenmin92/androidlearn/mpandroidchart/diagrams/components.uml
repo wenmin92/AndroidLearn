@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.mikephil.charting.components</OriginalElement>
+  <nodes>
+    <node x="259.5" y="80.0">com.github.mikephil.charting.components.Description</node>
+    <node x="186.75" y="0.0">com.github.mikephil.charting.components.ComponentBase</node>
+    <node x="138.0" y="315.0">com.github.mikephil.charting.components.MarkerView</node>
+    <node x="82.0" y="235.0">com.github.mikephil.charting.components.IMarker</node>
+    <node x="39.5" y="80.0">com.github.mikephil.charting.components.AxisBase</node>
+    <node x="95.99999999999999" y="160.0">com.github.mikephil.charting.components.YAxis</node>
+    <node x="293.0" y="235.0">com.github.mikephil.charting.components.LegendEntry</node>
+    <node x="0.0" y="160.0">com.github.mikephil.charting.components.XAxis</node>
+    <node x="387.5" y="80.0">com.github.mikephil.charting.components.LimitLine</node>
+    <node x="0.0" y="315.0">com.github.mikephil.charting.components.MarkerImage</node>
+    <node x="152.5" y="80.0">com.github.mikephil.charting.components.Legend</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.mikephil.charting.components.XAxis" target="com.github.mikephil.charting.components.AxisBase">
+      <point x="0.0" y="-15.0" />
+      <point x="38.0" y="135.0" />
+      <point x="62.75" y="135.0" />
+      <point x="-23.25" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.components.AxisBase" target="com.github.mikephil.charting.components.ComponentBase">
+      <point x="0.0" y="-15.0" />
+      <point x="86.0" y="50.0" />
+      <point x="203.75" y="50.0" />
+      <point x="-51.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.components.LimitLine" target="com.github.mikephil.charting.components.ComponentBase">
+      <point x="0.0" y="-15.0" />
+      <point x="436.0" y="50.0" />
+      <point x="305.75" y="50.0" />
+      <point x="51.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.components.MarkerImage" target="com.github.mikephil.charting.components.IMarker">
+      <point x="0.0" y="-15.0" />
+      <point x="59.0" y="290.0" />
+      <point x="104.0" y="290.0" />
+      <point x="-22.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.components.Description" target="com.github.mikephil.charting.components.ComponentBase">
+      <point x="0.0" y="-15.0" />
+      <point x="313.5" y="60.0" />
+      <point x="271.75" y="60.0" />
+      <point x="17.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.components.YAxis" target="com.github.mikephil.charting.components.AxisBase">
+      <point x="0.0" y="-15.0" />
+      <point x="134.0" y="135.0" />
+      <point x="109.25" y="135.0" />
+      <point x="23.25" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.components.MarkerView" target="com.github.mikephil.charting.components.IMarker">
+      <point x="0.0" y="-15.0" />
+      <point x="193.0" y="290.0" />
+      <point x="148.0" y="290.0" />
+      <point x="22.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.components.Legend" target="com.github.mikephil.charting.components.ComponentBase">
+      <point x="0.0" y="-15.0" />
+      <point x="196.0" y="60.0" />
+      <point x="237.75" y="60.0" />
+      <point x="-17.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="242.5" y="172.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

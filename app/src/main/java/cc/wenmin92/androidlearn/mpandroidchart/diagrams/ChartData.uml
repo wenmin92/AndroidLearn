@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.mikephil.charting.data.ChartData</OriginalElement>
+  <nodes>
+    <node x="485.75" y="0.0">com.github.mikephil.charting.data.ChartData</node>
+    <node x="367.0" y="170.0">com.github.mikephil.charting.data.CombinedData</node>
+    <node x="629.0" y="170.0">com.github.mikephil.charting.data.ScatterData</node>
+    <node x="600.25" y="80.0">com.github.mikephil.charting.data.RadarData</node>
+    <node x="109.0" y="170.0">com.github.mikephil.charting.data.BubbleData</node>
+    <node x="515.0" y="170.0">com.github.mikephil.charting.data.LineData</node>
+    <node x="251.25000000000003" y="80.0">com.github.mikephil.charting.data.BarLineScatterCandleBubbleData</node>
+    <node x="492.25" y="80.0">com.github.mikephil.charting.data.PieData</node>
+    <node x="238.00000000000003" y="170.0">com.github.mikephil.charting.data.CandleData</node>
+    <node x="0.0" y="170.0">com.github.mikephil.charting.data.BarData</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.mikephil.charting.data.CandleData" target="com.github.mikephil.charting.data.BarLineScatterCandleBubbleData">
+      <point x="0.0" y="-15.0" />
+      <point x="292.5" y="150.0" />
+      <point x="343.33333333333337" y="150.0" />
+      <point x="-18.416666666666686" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.LineData" target="com.github.mikephil.charting.data.BarLineScatterCandleBubbleData">
+      <point x="0.0" y="-15.0" />
+      <point x="562.0" y="140.0" />
+      <point x="417.0" y="140.0" />
+      <point x="55.25" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.BarData" target="com.github.mikephil.charting.data.BarLineScatterCandleBubbleData">
+      <point x="0.0" y="-15.0" />
+      <point x="44.5" y="130.0" />
+      <point x="269.66666666666674" y="130.0" />
+      <point x="-92.08333333333331" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.BubbleData" target="com.github.mikephil.charting.data.BarLineScatterCandleBubbleData">
+      <point x="0.0" y="-15.0" />
+      <point x="163.5" y="140.0" />
+      <point x="306.5" y="140.0" />
+      <point x="-55.25" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.PieData" target="com.github.mikephil.charting.data.ChartData">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.RadarData" target="com.github.mikephil.charting.data.ChartData">
+      <point x="0.0" y="-15.0" />
+      <point x="651.25" y="55.0" />
+      <point x="569.9166666666666" y="55.0" />
+      <point x="33.66666666666663" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.CombinedData" target="com.github.mikephil.charting.data.BarLineScatterCandleBubbleData">
+      <point x="0.0" y="-15.0" />
+      <point x="431.0" y="150.0" />
+      <point x="380.16666666666674" y="150.0" />
+      <point x="18.416666666666686" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.BarLineScatterCandleBubbleData" target="com.github.mikephil.charting.data.ChartData">
+      <point x="0.0" y="-15.0" />
+      <point x="361.75" y="55.0" />
+      <point x="502.58333333333337" y="55.0" />
+      <point x="-33.66666666666663" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.ScatterData" target="com.github.mikephil.charting.data.BarLineScatterCandleBubbleData">
+      <point x="0.0" y="-15.0" />
+      <point x="683.0" y="130.0" />
+      <point x="453.83333333333337" y="130.0" />
+      <point x="92.08333333333331" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="368.5" y="100.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

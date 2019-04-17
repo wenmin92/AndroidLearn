@@ -3,127 +3,135 @@
   <ID>JAVA</ID>
   <OriginalElement>android.transition</OriginalElement>
   <nodes>
-    <node x="71.25" y="325.0">android.transition.VisibilityPropagation</node>
-    <node x="354.0" y="325.0">android.transition.ArcMotion</node>
-    <node x="653.0" y="90.0">android.transition.Visibility</node>
-    <node x="930.0" y="480.0">android.transition.Scene</node>
-    <node x="424.5" y="245.0">android.transition.PathMotion</node>
-    <node x="0.0" y="480.0">android.transition.TransitionManager</node>
-    <node x="0.0" y="90.0">android.transition.ChangeBounds</node>
-    <node x="765.0" y="90.0">android.transition.ChangeScroll</node>
-    <node x="673.0" y="245.0">android.transition.TransitionListenerAdapter</node>
-    <node x="66.75" y="245.0">android.transition.TransitionPropagation</node>
-    <node x="750.0" y="480.0">android.transition.TransitionValues</node>
-    <node x="456.0" y="90.0">android.transition.ChangeImageTransform</node>
-    <node x="0.0" y="405.0">android.transition.SidePropagation</node>
-    <node x="494.0" y="0.0">android.transition.Transition</node>
-    <node x="319.0" y="90.0">android.transition.TransitionSet</node>
-    <node x="193.0" y="480.0">android.animation.LayoutTransition.TransitionListener</node>
-    <node x="903.0" y="90.0">android.transition.ChangeTransform</node>
-    <node x="149.0" y="90.0">android.transition.ChangeClipBounds</node>
-    <node x="514.8035714285714" y="170.0">android.transition.Slide</node>
-    <node x="654.5" y="170.0">android.transition.Explode</node>
-    <node x="567.0" y="480.0">android.transition.TransitionInflater</node>
-    <node x="479.0" y="325.0">android.transition.PatternPathMotion</node>
-    <node x="763.5" y="170.0">android.transition.Fade</node>
-    <node x="314.0" y="170.0">android.transition.AutoTransition</node>
-    <node x="155.0" y="405.0">android.transition.CircularPropagation</node>
-    <node x="380.0" y="480.0">android.transition.Transition.EpicenterCallback</node>
+    <node x="80.75" y="335.0">android.transition.VisibilityPropagation</node>
+    <node x="523.0" y="335.0">android.transition.ArcMotion</node>
+    <node x="960.0" y="100.0">android.transition.Visibility</node>
+    <node x="446.5" y="255.0">android.transition.PathMotion</node>
+    <node x="550.0" y="490.0">android.transition.Scene</node>
+    <node x="694.0" y="255.0">android.transition.Transition.TransitionListener</node>
+    <node x="902.0" y="255.0">android.transition.TransitionManager</node>
+    <node x="306.0" y="100.0">android.transition.ChangeBounds</node>
+    <node x="822.0" y="100.0">android.transition.ChangeScroll</node>
+    <node x="673.0" y="335.0">android.transition.TransitionListenerAdapter</node>
+    <node x="76.25" y="255.0">android.transition.TransitionPropagation</node>
+    <node x="370.0" y="490.0">android.transition.TransitionValues</node>
+    <node x="455.0" y="100.0">android.transition.ChangeImageTransform</node>
+    <node x="174.0" y="415.0">android.transition.SidePropagation</node>
+    <node x="513.3244047619048" y="0.0">android.transition.Transition</node>
+    <node x="5.0" y="100.0">android.transition.TransitionSet</node>
+    <node x="142.0" y="100.0">android.transition.ChangeTransform</node>
+    <node x="652.0" y="100.0">android.transition.ChangeClipBounds</node>
+    <node x="989.8244047619048" y="180.0">android.transition.Slide</node>
+    <node x="-196.74702380952374" y="190.0">android.transition.Explode</node>
+    <node x="187.0" y="490.0">android.transition.TransitionInflater</node>
+    <node x="354.0" y="335.0">android.transition.PatternPathMotion</node>
+    <node x="1082.8244047619048" y="180.0">android.transition.Fade</node>
+    <node x="0.0" y="180.0">android.transition.AutoTransition</node>
+    <node x="0.0" y="415.0">android.transition.CircularPropagation</node>
+    <node x="0.0" y="490.0">android.transition.Transition.EpicenterCallback</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="android.transition.ChangeImageTransform" target="android.transition.Transition">
-      <point x="0.0" y="-15.0" />
-      <point x="0.0" y="15.0" />
-    </edge>
     <edge source="android.transition.Slide" target="android.transition.Visibility">
       <point x="0.0" y="-15.0" />
-      <point x="551.3035714285714" y="145.0" />
-      <point x="668.3333333333334" y="145.0" />
-      <point x="-30.666666666666657" y="15.0" />
+      <point x="1026.3244047619048" y="155.0" />
+      <point x="1006.0" y="155.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="android.transition.ChangeImageTransform" target="android.transition.Transition">
+      <point x="0.0" y="-15.0" />
+      <point x="543.5" y="80.0" />
+      <point x="563.8244047619048" y="80.0" />
+      <point x="0.0" y="15.0" />
     </edge>
     <edge source="android.transition.Explode" target="android.transition.Visibility">
       <point x="0.0" y="-15.0" />
-      <point x="0.0" y="15.0" />
+      <point x="854.7529761904763" y="155.0" />
+      <point x="975.3333333333334" y="155.0" />
+      <point x="-30.666666666666686" y="15.0" />
     </edge>
     <edge source="android.transition.SidePropagation" target="android.transition.VisibilityPropagation">
       <point x="0.0" y="-15.0" />
-      <point x="67.5" y="380.0" />
-      <point x="110.5" y="380.0" />
-      <point x="-39.25" y="15.0" />
+      <point x="241.5" y="390.0" />
+      <point x="198.5" y="390.0" />
+      <point x="39.25" y="15.0" />
     </edge>
     <edge source="android.transition.ChangeClipBounds" target="android.transition.Transition">
       <point x="0.0" y="-15.0" />
-      <point x="224.0" y="60.0" />
-      <point x="515.6428571428571" y="60.0" />
-      <point x="-28.85714285714289" y="15.0" />
+      <point x="727.0" y="80.0" />
+      <point x="578.2529761904763" y="80.0" />
+      <point x="14.428571428571445" y="15.0" />
+    </edge>
+    <edge source="android.transition.TransitionListenerAdapter" target="android.transition.Transition.TransitionListener">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
     </edge>
     <edge source="android.transition.ChangeTransform" target="android.transition.Transition">
       <point x="0.0" y="-15.0" />
-      <point x="975.0" y="50.0" />
-      <point x="587.7857142857142" y="50.0" />
-      <point x="43.28571428571422" y="15.0" />
+      <point x="214.0" y="60.0" />
+      <point x="534.9672619047619" y="60.0" />
+      <point x="-28.85714285714289" y="15.0" />
+    </edge>
+    <edge source="android.transition.ArcMotion" target="android.transition.PathMotion">
+      <point x="0.0" y="-15.0" />
+      <point x="575.5" y="310.0" />
+      <point x="529.75" y="310.0" />
+      <point x="27.75" y="15.0" />
     </edge>
     <edge source="android.transition.AutoTransition" target="android.transition.TransitionSet">
       <point x="0.0" y="-15.0" />
       <point x="0.0" y="15.0" />
     </edge>
-    <edge source="android.transition.ArcMotion" target="android.transition.PathMotion">
+    <edge source="android.transition.ChangeBounds" target="android.transition.Transition">
       <point x="0.0" y="-15.0" />
-      <point x="406.5" y="300.0" />
-      <point x="452.25" y="300.0" />
-      <point x="-27.75" y="15.0" />
+      <point x="370.5" y="70.0" />
+      <point x="549.3958333333334" y="70.0" />
+      <point x="-14.428571428571445" y="15.0" />
     </edge>
     <edge source="android.transition.VisibilityPropagation" target="android.transition.TransitionPropagation">
       <point x="0.0" y="-15.0" />
       <point x="0.0" y="15.0" />
     </edge>
-    <edge source="android.transition.ChangeBounds" target="android.transition.Transition">
-      <point x="0.0" y="-15.0" />
-      <point x="64.5" y="50.0" />
-      <point x="501.21428571428567" y="50.0" />
-      <point x="-43.285714285714334" y="15.0" />
-    </edge>
     <edge source="android.transition.Visibility" target="android.transition.Transition">
       <point x="0.0" y="-15.0" />
-      <point x="699.0" y="70.0" />
-      <point x="558.9285714285714" y="70.0" />
-      <point x="14.428571428571445" y="15.0" />
+      <point x="1006.0" y="60.0" />
+      <point x="607.1101190476192" y="60.0" />
+      <point x="43.285714285714334" y="15.0" />
     </edge>
     <edge source="android.transition.CircularPropagation" target="android.transition.VisibilityPropagation">
       <point x="0.0" y="-15.0" />
-      <point x="232.0" y="380.0" />
-      <point x="189.0" y="380.0" />
-      <point x="39.25" y="15.0" />
+      <point x="77.0" y="390.0" />
+      <point x="120.0" y="390.0" />
+      <point x="-39.25" y="15.0" />
     </edge>
     <edge source="android.transition.TransitionSet" target="android.transition.Transition">
       <point x="0.0" y="-15.0" />
-      <point x="377.5" y="70.0" />
-      <point x="530.0714285714286" y="70.0" />
-      <point x="-14.428571428571445" y="15.0" />
+      <point x="63.5" y="50.0" />
+      <point x="520.5386904761906" y="50.0" />
+      <point x="-43.28571428571428" y="15.0" />
     </edge>
     <edge source="android.transition.Fade" target="android.transition.Visibility">
       <point x="0.0" y="-15.0" />
-      <point x="800.0" y="145.0" />
-      <point x="729.6666666666667" y="145.0" />
-      <point x="30.666666666666686" y="15.0" />
+      <point x="1119.3244047619048" y="155.0" />
+      <point x="1036.6666666666667" y="155.0" />
+      <point x="30.66666666666663" y="15.0" />
     </edge>
     <edge source="android.transition.PatternPathMotion" target="android.transition.PathMotion">
       <point x="0.0" y="-15.0" />
-      <point x="553.5" y="300.0" />
-      <point x="507.75" y="300.0" />
-      <point x="27.75" y="15.0" />
+      <point x="428.5" y="310.0" />
+      <point x="474.25" y="310.0" />
+      <point x="-27.75" y="15.0" />
     </edge>
     <edge source="android.transition.ChangeScroll" target="android.transition.Transition">
       <point x="0.0" y="-15.0" />
-      <point x="824.0" y="60.0" />
-      <point x="573.3571428571429" y="60.0" />
+      <point x="881.0" y="70.0" />
+      <point x="592.6815476190477" y="70.0" />
       <point x="28.85714285714289" y="15.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="571.0" y="241.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="578.0" y="260.0" />
   <SelectedNodes>
-    <node>android.transition.VisibilityPropagation</node>
+    <node>android.transition.Explode</node>
   </SelectedNodes>
   <Categories />
   <SCOPE>All</SCOPE>

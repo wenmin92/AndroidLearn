@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.mikephil.charting.highlight</OriginalElement>
+  <nodes>
+    <node x="172.5" y="160.0">com.github.mikephil.charting.highlight.CombinedHighlighter</node>
+    <node x="55.75" y="80.0">com.github.mikephil.charting.highlight.ChartHighlighter</node>
+    <node x="240.0" y="0.0">com.github.mikephil.charting.highlight.IHighlighter</node>
+    <node x="514.5" y="160.0">com.github.mikephil.charting.highlight.PieHighlighter</node>
+    <node x="420.04166666666663" y="80.0">com.github.mikephil.charting.highlight.PieRadarHighlighter</node>
+    <node x="356.5" y="160.0">com.github.mikephil.charting.highlight.RadarHighlighter</node>
+    <node x="27.5" y="160.0">com.github.mikephil.charting.highlight.BarHighlighter</node>
+    <node x="0.0" y="240.0">com.github.mikephil.charting.highlight.HorizontalBarHighlighter</node>
+    <node x="143.0" y="315.0">com.github.mikephil.charting.highlight.Range</node>
+    <node x="0.0" y="315.0">com.github.mikephil.charting.highlight.Highlight</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.mikephil.charting.highlight.RadarHighlighter" target="com.github.mikephil.charting.highlight.PieRadarHighlighter">
+      <point x="0.0" y="-15.0" />
+      <point x="425.5" y="135.0" />
+      <point x="458.54166666666663" y="135.0" />
+      <point x="-38.5" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.highlight.HorizontalBarHighlighter" target="com.github.mikephil.charting.highlight.BarHighlighter">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.highlight.BarHighlighter" target="com.github.mikephil.charting.highlight.ChartHighlighter">
+      <point x="0.0" y="-15.0" />
+      <point x="-34.25" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.highlight.PieRadarHighlighter" target="com.github.mikephil.charting.highlight.IHighlighter">
+      <point x="0.0" y="-15.0" />
+      <point x="497.04166666666663" y="55.0" />
+      <point x="332.5" y="55.0" />
+      <point x="37.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.highlight.PieHighlighter" target="com.github.mikephil.charting.highlight.PieRadarHighlighter">
+      <point x="-2.8421709430404007E-14" y="-15.0" />
+      <point x="576.5" y="135.0" />
+      <point x="535.5416666666666" y="135.0" />
+      <point x="38.5" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.highlight.CombinedHighlighter" target="com.github.mikephil.charting.highlight.IHighlighter">
+      <point x="41.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.highlight.ChartHighlighter" target="com.github.mikephil.charting.highlight.IHighlighter">
+      <point x="0.0" y="-15.0" />
+      <point x="124.25" y="55.0" />
+      <point x="258.5" y="55.0" />
+      <point x="-37.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.highlight.CombinedHighlighter" target="com.github.mikephil.charting.highlight.ChartHighlighter">
+      <point x="-41.0" y="-15.0" />
+      <point x="213.5" y="135.0" />
+      <point x="158.5" y="135.0" />
+      <point x="34.25" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="319.5" y="172.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

@@ -45,4 +45,5 @@ dependencies {
 
     implementation 'com.jakewharton.timber:timber:4.7.1'
     implementation 'com.blankj:utilcode:1.23.2'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 }

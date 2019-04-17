@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.mikephil.charting.charts</OriginalElement>
+  <nodes>
+    <node x="0.0" y="160.0">com.github.mikephil.charting.interfaces.dataprovider.BarDataProvider</node>
+    <node x="255.0" y="80.0">com.github.mikephil.charting.interfaces.dataprovider.BarLineScatterCandleBubbleDataProvider</node>
+    <node x="657.0" y="160.0">com.github.mikephil.charting.interfaces.dataprovider.ScatterDataProvider</node>
+    <node x="311.0" y="160.0">com.github.mikephil.charting.interfaces.dataprovider.CandleDataProvider</node>
+    <node x="153.0" y="160.0">com.github.mikephil.charting.interfaces.dataprovider.LineDataProvider</node>
+    <node x="484.0" y="160.0">com.github.mikephil.charting.interfaces.dataprovider.BubbleDataProvider</node>
+    <node x="326.0" y="0.0">com.github.mikephil.charting.interfaces.dataprovider.ChartInterface</node>
+    <node x="299.96875" y="240.0">com.github.mikephil.charting.interfaces.dataprovider.CombinedDataProvider</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.ScatterDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.BarLineScatterCandleBubbleDataProvider">
+      <point x="0.0" y="-15.0" />
+      <point x="733.0" y="130.0" />
+      <point x="493.5" y="130.0" />
+      <point x="106.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.CombinedDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.LineDataProvider">
+      <point x="-34.400000000000034" y="-15.0" />
+      <point x="351.56874999999997" y="210.0" />
+      <point x="222.0" y="210.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.BarLineScatterCandleBubbleDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.ChartInterface">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.CombinedDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.BubbleDataProvider">
+      <point x="34.39999999999998" y="-15.0" />
+      <point x="420.36875" y="210.0" />
+      <point x="560.5" y="210.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.BarDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.BarLineScatterCandleBubbleDataProvider">
+      <point x="0.0" y="-15.0" />
+      <point x="66.5" y="130.0" />
+      <point x="281.5" y="130.0" />
+      <point x="-106.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.CombinedDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.CandleDataProvider">
+      <point x="0.0" y="-15.0" />
+      <point x="385.96875" y="220.0" />
+      <point x="387.5" y="220.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.CandleDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.BarLineScatterCandleBubbleDataProvider">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.BubbleDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.BarLineScatterCandleBubbleDataProvider">
+      <point x="0.0" y="-15.0" />
+      <point x="560.5" y="140.0" />
+      <point x="440.5" y="140.0" />
+      <point x="53.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.CombinedDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.BarDataProvider">
+      <point x="-68.80000000000001" y="-15.0" />
+      <point x="317.16875" y="220.0" />
+      <point x="66.5" y="220.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.CombinedDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.ScatterDataProvider">
+      <point x="68.80000000000001" y="-15.0" />
+      <point x="454.76875" y="220.0" />
+      <point x="733.0" y="220.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.LineDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.BarLineScatterCandleBubbleDataProvider">
+      <point x="0.0" y="-15.0" />
+      <point x="222.0" y="140.0" />
+      <point x="334.5" y="140.0" />
+      <point x="-53.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="404.5" y="135.0" />
+  <SelectedNodes>
+    <node>com.github.mikephil.charting.interfaces.dataprovider.CombinedDataProvider</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

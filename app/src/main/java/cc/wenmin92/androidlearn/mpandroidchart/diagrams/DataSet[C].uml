@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.mikephil.charting.data.ChartData</OriginalElement>
+  <nodes>
+    <node x="0.0" y="400.0">com.github.mikephil.charting.data.RadarDataSet</node>
+    <node x="410.27083333333337" y="240.0">com.github.mikephil.charting.data.BarDataSet</node>
+    <node x="535.2708333333333" y="240.0">com.github.mikephil.charting.data.BubbleDataSet</node>
+    <node x="138.0" y="400.0">com.github.mikephil.charting.data.LineDataSet</node>
+    <node x="508.25" y="80.0">com.github.mikephil.charting.data.DataSet</node>
+    <node x="216.0" y="320.0">com.github.mikephil.charting.data.ScatterDataSet</node>
+    <node x="360.0" y="320.0">com.github.mikephil.charting.data.CandleDataSet</node>
+    <node x="496.25" y="0.0">com.github.mikephil.charting.data.BaseDataSet</node>
+    <node x="338.5" y="160.0">com.github.mikephil.charting.data.BarLineScatterCandleBubbleDataSet</node>
+    <node x="595.5" y="160.0">com.github.mikephil.charting.data.PieDataSet</node>
+    <node x="177.27083333333334" y="240.0">com.github.mikephil.charting.data.LineScatterCandleRadarDataSet</node>
+    <node x="56.0" y="320.0">com.github.mikephil.charting.data.LineRadarDataSet</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.mikephil.charting.data.LineScatterCandleRadarDataSet" target="com.github.mikephil.charting.data.BarLineScatterCandleBubbleDataSet">
+      <point x="0.0" y="-15.0" />
+      <point x="283.77083333333337" y="215.0" />
+      <point x="378.0" y="215.0" />
+      <point x="-79.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.BarLineScatterCandleBubbleDataSet" target="com.github.mikephil.charting.data.DataSet">
+      <point x="0.0" y="-15.0" />
+      <point x="457.0" y="135.0" />
+      <point x="530.25" y="135.0" />
+      <point x="-22.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.CandleDataSet" target="com.github.mikephil.charting.data.LineScatterCandleRadarDataSet">
+      <point x="0.0" y="-15.0" />
+      <point x="422.5" y="295.0" />
+      <point x="354.77083333333337" y="295.0" />
+      <point x="71.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.PieDataSet" target="com.github.mikephil.charting.data.DataSet">
+      <point x="0.0" y="-15.0" />
+      <point x="647.5" y="135.0" />
+      <point x="574.25" y="135.0" />
+      <point x="22.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.LineDataSet" target="com.github.mikephil.charting.data.LineRadarDataSet">
+      <point x="0.0" y="-15.0" />
+      <point x="193.0" y="375.0" />
+      <point x="161.0" y="375.0" />
+      <point x="35.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.BarDataSet" target="com.github.mikephil.charting.data.BarLineScatterCandleBubbleDataSet">
+      <point x="0.0" y="-15.0" />
+      <point x="462.77083333333337" y="215.0" />
+      <point x="457.0" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.RadarDataSet" target="com.github.mikephil.charting.data.LineRadarDataSet">
+      <point x="0.0" y="-15.0" />
+      <point x="59.0" y="375.0" />
+      <point x="91.0" y="375.0" />
+      <point x="-35.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.LineRadarDataSet" target="com.github.mikephil.charting.data.LineScatterCandleRadarDataSet">
+      <point x="0.0" y="-15.0" />
+      <point x="126.0" y="295.0" />
+      <point x="212.77083333333334" y="295.0" />
+      <point x="-71.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.DataSet" target="com.github.mikephil.charting.data.BaseDataSet">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.BubbleDataSet" target="com.github.mikephil.charting.data.BarLineScatterCandleBubbleDataSet">
+      <point x="5.6843418860808015E-14" y="-15.0" />
+      <point x="597.7708333333334" y="215.0" />
+      <point x="536.0" y="215.0" />
+      <point x="79.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.ScatterDataSet" target="com.github.mikephil.charting.data.LineScatterCandleRadarDataSet">
+      <point x="0.0" y="-15.0" />
+      <point x="278.0" y="295.0" />
+      <point x="283.77083333333337" y="295.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="561.0" y="260.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

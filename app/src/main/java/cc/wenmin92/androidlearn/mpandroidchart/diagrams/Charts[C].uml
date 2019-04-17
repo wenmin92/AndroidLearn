@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.mikephil.charting.charts</OriginalElement>
+  <nodes>
+    <node x="354.0" y="170.0">com.github.mikephil.charting.charts.ScatterChart</node>
+    <node x="918.0" y="170.0">com.github.mikephil.charting.charts.BubbleChart</node>
+    <node x="33.0" y="80.0">com.github.mikephil.charting.charts.PieRadarChartBase</node>
+    <node x="343.49305555555554" y="0.0">com.github.mikephil.charting.charts.Chart</node>
+    <node x="212.5" y="250.0">com.github.mikephil.charting.charts.HorizontalBarChart</node>
+    <node x="536.0" y="80.0">com.github.mikephil.charting.charts.BarLineChartBase</node>
+    <node x="113.0" y="170.0">com.github.mikephil.charting.charts.RadarChart</node>
+    <node x="765.0" y="170.0">com.github.mikephil.charting.charts.CombinedChart</node>
+    <node x="240.0" y="170.0">com.github.mikephil.charting.charts.BarChart</node>
+    <node x="606.0" y="170.0">com.github.mikephil.charting.charts.CandleStickChart</node>
+    <node x="0.0" y="170.0">com.github.mikephil.charting.charts.PieChart</node>
+    <node x="487.0" y="170.0">com.github.mikephil.charting.charts.LineChart</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.mikephil.charting.charts.HorizontalBarChart" target="com.github.mikephil.charting.charts.BarChart">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.BarChart" target="com.github.mikephil.charting.charts.BarLineChartBase">
+      <point x="0.0" y="-15.0" />
+      <point x="287.0" y="130.0" />
+      <point x="547.6666666666666" y="130.0" />
+      <point x="-58.33333333333337" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.RadarChart" target="com.github.mikephil.charting.charts.PieRadarChartBase">
+      <point x="0.0" y="-15.0" />
+      <point x="166.5" y="150.0" />
+      <point x="143.25" y="150.0" />
+      <point x="36.75" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.BarLineChartBase" target="com.github.mikephil.charting.charts.Chart">
+      <point x="0.0" y="-15.0" />
+      <point x="606.0" y="55.0" />
+      <point x="401.24305555555554" y="55.0" />
+      <point x="19.25" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.PieRadarChartBase" target="com.github.mikephil.charting.charts.Chart">
+      <point x="0.0" y="-15.0" />
+      <point x="106.5" y="55.0" />
+      <point x="362.74305555555554" y="55.0" />
+      <point x="-19.25" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.BubbleChart" target="com.github.mikephil.charting.charts.BarLineChartBase">
+      <point x="0.0" y="-15.0" />
+      <point x="975.0" y="130.0" />
+      <point x="664.3333333333333" y="130.0" />
+      <point x="58.33333333333326" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.CandleStickChart" target="com.github.mikephil.charting.charts.BarLineChartBase">
+      <point x="0.0" y="-15.0" />
+      <point x="675.5" y="150.0" />
+      <point x="617.6666666666666" y="150.0" />
+      <point x="11.666666666666629" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.ScatterChart" target="com.github.mikephil.charting.charts.BarLineChartBase">
+      <point x="0.0" y="-15.0" />
+      <point x="410.5" y="140.0" />
+      <point x="571.0" y="140.0" />
+      <point x="-35.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.LineChart" target="com.github.mikephil.charting.charts.BarLineChartBase">
+      <point x="0.0" y="-15.0" />
+      <point x="536.5" y="150.0" />
+      <point x="594.3333333333334" y="150.0" />
+      <point x="-11.666666666666629" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.PieChart" target="com.github.mikephil.charting.charts.PieRadarChartBase">
+      <point x="0.0" y="-15.0" />
+      <point x="46.5" y="150.0" />
+      <point x="69.75" y="150.0" />
+      <point x="-36.75" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.CombinedChart" target="com.github.mikephil.charting.charts.BarLineChartBase">
+      <point x="0.0" y="-15.0" />
+      <point x="831.5" y="140.0" />
+      <point x="641.0" y="140.0" />
+      <point x="35.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="591.0" y="235.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

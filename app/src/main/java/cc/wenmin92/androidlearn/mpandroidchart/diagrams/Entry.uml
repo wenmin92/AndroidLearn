@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.mikephil.charting.data</OriginalElement>
+  <nodes>
+    <node x="0.0" y="160.0">com.github.mikephil.charting.data.CandleEntry</node>
+    <node x="480.0" y="160.0">com.github.mikephil.charting.data.BubbleEntry</node>
+    <node x="244.0" y="160.0">com.github.mikephil.charting.data.RadarEntry</node>
+    <node x="259.0" y="80.0">com.github.mikephil.charting.data.Entry</node>
+    <node x="247.0" y="0.0">com.github.mikephil.charting.data.BaseEntry</node>
+    <node x="132.0" y="160.0">com.github.mikephil.charting.data.BarEntry</node>
+    <node x="369.0" y="160.0">com.github.mikephil.charting.data.PieEntry</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.mikephil.charting.data.CandleEntry" target="com.github.mikephil.charting.data.Entry">
+      <point x="0.0" y="-15.0" />
+      <point x="56.0" y="130.0" />
+      <point x="266.5" y="130.0" />
+      <point x="-30.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.BarEntry" target="com.github.mikephil.charting.data.Entry">
+      <point x="0.0" y="-15.0" />
+      <point x="178.0" y="140.0" />
+      <point x="281.5" y="140.0" />
+      <point x="-15.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.PieEntry" target="com.github.mikephil.charting.data.Entry">
+      <point x="0.0" y="-15.0" />
+      <point x="414.5" y="140.0" />
+      <point x="311.5" y="140.0" />
+      <point x="15.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.Entry" target="com.github.mikephil.charting.data.BaseEntry">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.RadarEntry" target="com.github.mikephil.charting.data.Entry">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.data.BubbleEntry" target="com.github.mikephil.charting.data.Entry">
+      <point x="0.0" y="-15.0" />
+      <point x="536.0" y="130.0" />
+      <point x="326.5" y="130.0" />
+      <point x="30.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="502.0" y="310.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

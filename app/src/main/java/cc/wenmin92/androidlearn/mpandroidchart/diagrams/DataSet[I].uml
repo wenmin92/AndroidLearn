@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.mikephil.charting.data.ChartData</OriginalElement>
+  <nodes>
+    <node x="141.00000000000003" y="320.0">com.github.mikephil.charting.interfaces.datasets.ILineDataSet</node>
+    <node x="412.0" y="160.0">com.github.mikephil.charting.interfaces.datasets.IBubbleDataSet</node>
+    <node x="560.0" y="160.0">com.github.mikephil.charting.interfaces.datasets.IBarDataSet</node>
+    <node x="527.25" y="0.0">com.github.mikephil.charting.interfaces.datasets.IDataSet</node>
+    <node x="0.0" y="320.0">com.github.mikephil.charting.interfaces.datasets.IRadarDataSet</node>
+    <node x="356.0" y="80.0">com.github.mikephil.charting.interfaces.datasets.IBarLineScatterCandleBubbleDataSet</node>
+    <node x="176.00000000000003" y="160.0">com.github.mikephil.charting.interfaces.datasets.ILineScatterCandleRadarDataSet</node>
+    <node x="616.0" y="80.0">com.github.mikephil.charting.interfaces.datasets.IPieDataSet</node>
+    <node x="57.5" y="240.0">com.github.mikephil.charting.interfaces.datasets.ILineRadarDataSet</node>
+    <node x="220.50000000000003" y="240.0">com.github.mikephil.charting.interfaces.datasets.IScatterDataSet</node>
+    <node x="367.5" y="240.0">com.github.mikephil.charting.interfaces.datasets.ICandleDataSet</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.mikephil.charting.interfaces.datasets.IRadarDataSet" target="com.github.mikephil.charting.interfaces.datasets.ILineRadarDataSet">
+      <point x="0.0" y="-15.0" />
+      <point x="60.5" y="295.0" />
+      <point x="93.25" y="295.0" />
+      <point x="-35.75" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.datasets.ILineScatterCandleRadarDataSet" target="com.github.mikephil.charting.interfaces.datasets.IBarLineScatterCandleBubbleDataSet">
+      <point x="0.0" y="-15.0" />
+      <point x="284.0" y="135.0" />
+      <point x="396.0" y="135.0" />
+      <point x="-80.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.datasets.IScatterDataSet" target="com.github.mikephil.charting.interfaces.datasets.ILineScatterCandleRadarDataSet">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.datasets.ILineRadarDataSet" target="com.github.mikephil.charting.interfaces.datasets.ILineScatterCandleRadarDataSet">
+      <point x="0.0" y="-15.0" />
+      <point x="129.0" y="215.0" />
+      <point x="212.00000000000003" y="215.0" />
+      <point x="-72.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.datasets.IPieDataSet" target="com.github.mikephil.charting.interfaces.datasets.IDataSet">
+      <point x="0.0" y="-15.0" />
+      <point x="669.5" y="55.0" />
+      <point x="595.5" y="55.0" />
+      <point x="22.75" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.datasets.ILineDataSet" target="com.github.mikephil.charting.interfaces.datasets.ILineRadarDataSet">
+      <point x="0.0" y="-15.0" />
+      <point x="197.50000000000003" y="295.0" />
+      <point x="164.75" y="295.0" />
+      <point x="35.75" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.datasets.IBarLineScatterCandleBubbleDataSet" target="com.github.mikephil.charting.interfaces.datasets.IDataSet">
+      <point x="0.0" y="-15.0" />
+      <point x="476.0" y="55.0" />
+      <point x="550.0" y="55.0" />
+      <point x="-22.75" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.datasets.IBarDataSet" target="com.github.mikephil.charting.interfaces.datasets.IBarLineScatterCandleBubbleDataSet">
+      <point x="0.0" y="-15.0" />
+      <point x="614.0" y="135.0" />
+      <point x="556.0" y="135.0" />
+      <point x="80.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.datasets.IBubbleDataSet" target="com.github.mikephil.charting.interfaces.datasets.IBarLineScatterCandleBubbleDataSet">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.datasets.ICandleDataSet" target="com.github.mikephil.charting.interfaces.datasets.ILineScatterCandleRadarDataSet">
+      <point x="0.0" y="-15.0" />
+      <point x="431.5" y="215.0" />
+      <point x="356.0" y="215.0" />
+      <point x="72.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="560.0" y="260.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

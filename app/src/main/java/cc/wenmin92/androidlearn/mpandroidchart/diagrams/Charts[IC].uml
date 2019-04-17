@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.mikephil.charting.charts</OriginalElement>
+  <nodes>
+    <node x="999.1944444444446" y="370.0">com.github.mikephil.charting.charts.ScatterChart</node>
+    <node x="845.9444444444446" y="370.0">com.github.mikephil.charting.charts.BubbleChart</node>
+    <node x="0.0" y="170.0">com.github.mikephil.charting.interfaces.dataprovider.BarDataProvider</node>
+    <node x="1220.9444444444446" y="170.0">com.github.mikephil.charting.charts.PieRadarChartBase</node>
+    <node x="340.21944444444455" y="80.0">com.github.mikephil.charting.interfaces.dataprovider.BarLineScatterCandleBubbleDataProvider</node>
+    <node x="1152.852380952381" y="80.0">com.github.mikephil.charting.charts.Chart</node>
+    <node x="657.0" y="170.0">com.github.mikephil.charting.interfaces.dataprovider.ScatterDataProvider</node>
+    <node x="319.723015873016" y="450.0">com.github.mikephil.charting.charts.HorizontalBarChart</node>
+    <node x="1180.9444444444446" y="370.0">com.github.mikephil.charting.charts.RadarChart</node>
+    <node x="921.5146825396827" y="170.0">com.github.mikephil.charting.charts.BarLineChartBase</node>
+    <node x="1012.7646825396826" y="450.0">com.github.mikephil.charting.charts.CombinedChart</node>
+    <node x="311.0" y="170.0">com.github.mikephil.charting.interfaces.dataprovider.CandleDataProvider</node>
+    <node x="423.69444444444457" y="370.0">com.github.mikephil.charting.charts.BarChart</node>
+    <node x="153.0" y="170.0">com.github.mikephil.charting.interfaces.dataprovider.LineDataProvider</node>
+    <node x="484.0" y="170.0">com.github.mikephil.charting.interfaces.dataprovider.BubbleDataProvider</node>
+    <node x="676.8194444444446" y="370.0">com.github.mikephil.charting.charts.CandleStickChart</node>
+    <node x="858.0190476190477" y="0.0">com.github.mikephil.charting.interfaces.dataprovider.ChartInterface</node>
+    <node x="1307.9444444444446" y="370.0">com.github.mikephil.charting.charts.PieChart</node>
+    <node x="537.6944444444446" y="370.0">com.github.mikephil.charting.charts.LineChart</node>
+    <node x="150.22142857142865" y="370.0">com.github.mikephil.charting.interfaces.dataprovider.CombinedDataProvider</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.ScatterDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.BarLineScatterCandleBubbleDataProvider">
+      <point x="0.0" y="-15.0" />
+      <point x="733.0" y="140.0" />
+      <point x="538.9694444444444" y="140.0" />
+      <point x="66.24999999999994" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.HorizontalBarChart" target="com.github.mikephil.charting.charts.BarChart">
+      <point x="0.0" y="-15.0" />
+      <point x="394.223015873016" y="430.0" />
+      <point x="470.69444444444457" y="430.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.BarChart" target="com.github.mikephil.charting.charts.BarLineChartBase">
+      <point x="23.5" y="-15.0" />
+      <point x="494.19444444444457" y="320.0" />
+      <point x="933.1813492063493" y="320.0" />
+      <point x="-58.33333333333337" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.RadarChart" target="com.github.mikephil.charting.charts.PieRadarChartBase">
+      <point x="0.0" y="-15.0" />
+      <point x="1234.4444444444446" y="350.0" />
+      <point x="1257.6944444444446" y="350.0" />
+      <point x="-36.75" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.CombinedDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.LineDataProvider">
+      <point x="-34.400000000000034" y="-15.0" />
+      <point x="201.82142857142856" y="350.0" />
+      <point x="187.5" y="350.0" />
+      <point x="-34.5" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.BarLineChartBase" target="com.github.mikephil.charting.charts.Chart">
+      <point x="35.0" y="-15.0" />
+      <point x="1026.5146825396828" y="150.0" />
+      <point x="1172.102380952381" y="150.0" />
+      <point x="-19.25" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.PieRadarChartBase" target="com.github.mikephil.charting.charts.Chart">
+      <point x="0.0" y="-15.0" />
+      <point x="1294.4444444444446" y="150.0" />
+      <point x="1210.602380952381" y="150.0" />
+      <point x="19.25" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.BubbleChart" target="com.github.mikephil.charting.charts.BarLineChartBase">
+      <point x="28.5" y="-15.0" />
+      <point x="931.4444444444446" y="350.0" />
+      <point x="1003.1813492063493" y="350.0" />
+      <point x="11.666666666666629" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.CandleStickChart" target="com.github.mikephil.charting.charts.BarLineChartBase">
+      <point x="34.75" y="-15.0" />
+      <point x="781.0694444444446" y="340.0" />
+      <point x="979.848015873016" y="340.0" />
+      <point x="-11.666666666666629" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.BarLineScatterCandleBubbleDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.ChartInterface">
+      <point x="5.6843418860808015E-14" y="-15.0" />
+      <point x="472.7194444444446" y="55.0" />
+      <point x="888.7690476190477" y="55.0" />
+      <point x="-30.75" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.CombinedDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.BubbleDataProvider">
+      <point x="34.39999999999998" y="-15.0" />
+      <point x="270.6214285714286" y="300.0" />
+      <point x="522.25" y="300.0" />
+      <point x="-38.25" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.LineChart" target="com.github.mikephil.charting.interfaces.dataprovider.LineDataProvider">
+      <point x="-24.75" y="-15.0" />
+      <point x="562.4444444444446" y="270.0" />
+      <point x="256.5" y="270.0" />
+      <point x="34.5" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.BarChart" target="com.github.mikephil.charting.interfaces.dataprovider.BarDataProvider">
+      <point x="-23.5" y="-15.0" />
+      <point x="447.19444444444457" y="280.0" />
+      <point x="99.75" y="280.0" />
+      <point x="33.25" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.ScatterChart" target="com.github.mikephil.charting.charts.BarLineChartBase">
+      <point x="28.25" y="-15.0" />
+      <point x="1083.9444444444446" y="230.0" />
+      <point x="1026.5146825396828" y="230.0" />
+      <point x="35.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.BarDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.BarLineScatterCandleBubbleDataProvider">
+      <point x="0.0" y="-15.0" />
+      <point x="66.5" y="130.0" />
+      <point x="362.30277777777786" y="130.0" />
+      <point x="-110.41666666666669" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.BarLineChartBase" target="com.github.mikephil.charting.interfaces.dataprovider.BarLineScatterCandleBubbleDataProvider">
+      <point x="-35.0" y="-15.0" />
+      <point x="956.5146825396827" y="130.0" />
+      <point x="583.1361111111112" y="130.0" />
+      <point x="110.41666666666657" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.BubbleChart" target="com.github.mikephil.charting.interfaces.dataprovider.BubbleDataProvider">
+      <point x="-28.5" y="-15.0" />
+      <point x="874.4444444444446" y="250.0" />
+      <point x="598.75" y="250.0" />
+      <point x="38.25" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.CombinedChart" target="com.github.mikephil.charting.interfaces.dataprovider.CombinedDataProvider">
+      <point x="-33.25" y="-15.0" />
+      <point x="1046.0146825396826" y="420.0" />
+      <point x="236.22142857142865" y="420.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.CandleStickChart" target="com.github.mikephil.charting.interfaces.dataprovider.CandleDataProvider">
+      <point x="-34.75" y="-15.0" />
+      <point x="711.5694444444446" y="260.0" />
+      <point x="425.75" y="260.0" />
+      <point x="38.25" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.CombinedDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.CandleDataProvider">
+      <point x="0.0" y="-15.0" />
+      <point x="236.22142857142865" y="290.0" />
+      <point x="349.25" y="290.0" />
+      <point x="-38.25" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.BubbleDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.BarLineScatterCandleBubbleDataProvider">
+      <point x="0.0" y="-15.0" />
+      <point x="560.5" y="150.0" />
+      <point x="494.80277777777786" y="150.0" />
+      <point x="22.083333333333314" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.CombinedDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.BarDataProvider">
+      <point x="-68.80000000000001" y="-15.0" />
+      <point x="167.4214285714287" y="350.0" />
+      <point x="33.25" y="350.0" />
+      <point x="-33.25" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.CandleDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.BarLineScatterCandleBubbleDataProvider">
+      <point x="0.0" y="-15.0" />
+      <point x="387.5" y="150.0" />
+      <point x="450.63611111111123" y="150.0" />
+      <point x="-22.083333333333314" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.LineChart" target="com.github.mikephil.charting.charts.BarLineChartBase">
+      <point x="24.75" y="-15.0" />
+      <point x="611.9444444444446" y="330.0" />
+      <point x="956.5146825396827" y="330.0" />
+      <point x="-35.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.PieChart" target="com.github.mikephil.charting.charts.PieRadarChartBase">
+      <point x="0.0" y="-15.0" />
+      <point x="1354.4444444444446" y="350.0" />
+      <point x="1331.1944444444446" y="350.0" />
+      <point x="36.75" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.Chart" target="com.github.mikephil.charting.interfaces.dataprovider.ChartInterface">
+      <point x="0.0" y="-15.0" />
+      <point x="1191.352380952381" y="55.0" />
+      <point x="950.2690476190477" y="55.0" />
+      <point x="30.75" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.LineDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.BarLineScatterCandleBubbleDataProvider">
+      <point x="0.0" y="-15.0" />
+      <point x="222.0" y="140.0" />
+      <point x="406.46944444444455" y="140.0" />
+      <point x="-66.25" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.interfaces.dataprovider.CombinedDataProvider" target="com.github.mikephil.charting.interfaces.dataprovider.ScatterDataProvider">
+      <point x="68.80000000000001" y="-15.0" />
+      <point x="305.02142857142866" y="310.0" />
+      <point x="695.0" y="310.0" />
+      <point x="-38.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.ScatterChart" target="com.github.mikephil.charting.interfaces.dataprovider.ScatterDataProvider">
+      <point x="-28.25" y="-15.0" />
+      <point x="1027.4444444444446" y="240.0" />
+      <point x="771.0" y="240.0" />
+      <point x="38.0" y="15.0" />
+    </edge>
+    <edge source="com.github.mikephil.charting.charts.CombinedChart" target="com.github.mikephil.charting.charts.BarLineChartBase">
+      <point x="33.25" y="-15.0" />
+      <point x="1112.5146825396826" y="430.0" />
+      <point x="1122.6944444444446" y="430.0" />
+      <point x="1122.6944444444446" y="220.0" />
+      <point x="1049.8480158730158" y="220.0" />
+      <point x="58.33333333333326" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="590.5" y="235.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
