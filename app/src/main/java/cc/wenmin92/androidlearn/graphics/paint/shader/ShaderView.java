@@ -1,6 +1,5 @@
 package cc.wenmin92.androidlearn.graphics.paint.shader;
 
-import android.annotation.IntDef;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -15,6 +14,7 @@ import android.graphics.PorterDuff;
 import android.graphics.RadialGradient;
 import android.graphics.Shader;
 import android.graphics.SweepGradient;
+import android.support.annotation.IntDef;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
