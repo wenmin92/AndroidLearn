@@ -14,6 +14,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
+import cc.wenmin92.androidlearn.graphics.paint.other.ShadowLayerActivity;
 import cc.wenmin92.androidlearn.graphics.paint.path_effect.PathEffectTestActivity;
 import cc.wenmin92.androidlearn.graphics.paint.shader.ShaderTestActivity;
 import cc.wenmin92.androidlearn.keyboard.KeyboardActivity;
@@ -59,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
         testItems.add(new TestItem(StatusBarTestActivity.class, "Status Bar"));
         testItems.add(new TestItem(StorageTestActivity.class, "Storage"));
         testItems.add(new TestItem(PopupWindowActivity.class, "Popup Window"));
+        testItems.add(new TestItem(ShadowLayerActivity.class, "Paint-ShadowLayer"));
         return testItems;
     }
 
