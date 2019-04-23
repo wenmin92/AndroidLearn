@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>android.graphics.drawable</OriginalElement>
+  <nodes>
+    <node x="154.0" y="130.0">android.graphics.drawable.LayerDrawable</node>
+    <node x="1669.1666666666667" y="210.0">android.graphics.drawable.Animatable2</node>
+    <node x="478.0" y="130.0">android.graphics.drawable.AdaptiveIconDrawable</node>
+    <node x="1264.4553349875932" y="210.0">android.graphics.drawable.LevelListDrawable</node>
+    <node x="332.0" y="130.0">android.graphics.drawable.ColorDrawable</node>
+    <node x="1386.9187344913153" y="290.0">android.graphics.drawable.AnimatedVectorDrawable</node>
+    <node x="1025.2053349875932" y="0.0">android.graphics.drawable.Drawable</node>
+    <node x="1473.8303349875932" y="210.0">android.graphics.drawable.AnimationDrawable</node>
+    <node x="258.5" y="445.0">android.graphics.drawable.shapes.PathShape</node>
+    <node x="1058.3303349875932" y="210.0">android.graphics.drawable.StateListDrawable</node>
+    <node x="1743.2916666666667" y="130.0">android.graphics.drawable.VectorDrawable</node>
+    <node x="622.2053349875932" y="210.0">android.graphics.drawable.ClipDrawable</node>
+    <node x="1452.2916666666667" y="130.0">android.graphics.drawable.GradientDrawable</node>
+    <node x="0.0" y="525.0">android.graphics.drawable.shapes.ArcShape</node>
+    <node x="1827.2937344913153" y="290.0">android.graphics.drawable.AnimatedImageDrawable</node>
+    <node x="208.75" y="365.0">android.graphics.drawable.shapes.Shape</node>
+    <node x="425.0" y="365.0">android.graphics.drawable.Icon</node>
+    <node x="1283.2916666666667" y="130.0">android.graphics.drawable.DrawableContainer</node>
+    <node x="1032.3303349875932" y="290.0">android.graphics.drawable.AnimatedStateListDrawable</node>
+    <node x="1894.2916666666667" y="130.0">android.graphics.drawable.ShapeDrawable</node>
+    <node x="453.20533498759323" y="210.0">android.graphics.drawable.InsetDrawable</node>
+    <node x="982.0" y="130.0">android.graphics.drawable.NinePatchDrawable</node>
+    <node x="0.0" y="130.0">android.graphics.drawable.PictureDrawable</node>
+    <node x="827.0" y="130.0">android.graphics.drawable.BitmapDrawable</node>
+    <node x="907.3303349875932" y="210.0">android.graphics.drawable.RotateDrawable</node>
+    <node x="760.2053349875932" y="210.0">android.graphics.drawable.ScaleDrawable</node>
+    <node x="1614.2916666666667" y="130.0">android.graphics.drawable.Animatable</node>
+    <node x="665.0" y="130.0">android.graphics.drawable.DrawableWrapper</node>
+    <node x="118.0" y="525.0">android.graphics.drawable.shapes.RoundRectShape</node>
+    <node x="87.00744416873454" y="210.0">android.graphics.drawable.TransitionDrawable</node>
+    <node x="1896.7916666666667" y="210.0">android.graphics.drawable.PaintDrawable</node>
+    <node x="276.0" y="525.0">android.graphics.drawable.shapes.OvalShape</node>
+    <node x="257.00744416873465" y="210.0">android.graphics.drawable.RippleDrawable</node>
+    <node x="135.5" y="445.0">android.graphics.drawable.shapes.RectShape</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="android.graphics.drawable.PaintDrawable" target="android.graphics.drawable.ShapeDrawable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.AdaptiveIconDrawable" target="android.graphics.drawable.Drawable">
+      <point x="0.0" y="-15.0" />
+      <point x="561.5" y="80.0" />
+      <point x="1051.3207196029778" y="80.0" />
+      <point x="-22.384615384615472" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.BitmapDrawable" target="android.graphics.drawable.Drawable">
+      <point x="0.0" y="-15.0" />
+      <point x="894.5" y="100.0" />
+      <point x="1066.2437965260547" y="100.0" />
+      <point x="-7.4615384615385665" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.PictureDrawable" target="android.graphics.drawable.Drawable">
+      <point x="0.0" y="-15.0" />
+      <point x="67.0" y="50.0" />
+      <point x="1028.9361042183625" y="50.0" />
+      <point x="-44.76923076923072" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.shapes.ArcShape" target="android.graphics.drawable.shapes.RectShape">
+      <point x="0.0" y="-15.0" />
+      <point x="49.0" y="500.0" />
+      <point x="152.66666666666666" y="500.0" />
+      <point x="-34.33333333333334" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.shapes.RectShape" target="android.graphics.drawable.shapes.Shape">
+      <point x="0.0" y="-15.0" />
+      <point x="187.0" y="420.0" />
+      <point x="228.75" y="420.0" />
+      <point x="-20.0" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.AnimatedImageDrawable" target="android.graphics.drawable.Animatable2">
+      <point x="-45.5" y="-15.0" />
+      <point x="1872.7937344913153" y="265.0" />
+      <point x="1755.4166666666667" y="265.0" />
+      <point x="28.75" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.AnimatedVectorDrawable" target="android.graphics.drawable.Animatable2">
+      <point x="45.75" y="-15.0" />
+      <point x="1524.1687344913153" y="265.0" />
+      <point x="1697.9166666666667" y="265.0" />
+      <point x="-28.75" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.AnimatedVectorDrawable" target="android.graphics.drawable.Drawable">
+      <point x="-45.75" y="-15.0" />
+      <point x="1432.6687344913153" y="265.0" />
+      <point x="1250.4553349875932" y="265.0" />
+      <point x="1250.4553349875932" y="110.0" />
+      <point x="1081.1668734491318" y="110.0" />
+      <point x="7.4615384615385665" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.RippleDrawable" target="android.graphics.drawable.LayerDrawable">
+      <point x="0.0" y="-15.0" />
+      <point x="322.00744416873465" y="190.0" />
+      <point x="247.75" y="190.0" />
+      <point x="31.25" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.shapes.PathShape" target="android.graphics.drawable.shapes.Shape">
+      <point x="0.0" y="-15.0" />
+      <point x="310.5" y="420.0" />
+      <point x="268.75" y="420.0" />
+      <point x="20.0" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.AnimatedStateListDrawable" target="android.graphics.drawable.StateListDrawable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.DrawableContainer" target="android.graphics.drawable.Drawable">
+      <point x="0.0" y="-15.0" />
+      <point x="1357.7916666666667" y="100.0" />
+      <point x="1088.6284119106701" y="100.0" />
+      <point x="14.923076923076906" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.AnimationDrawable" target="android.graphics.drawable.Animatable">
+      <point x="38.25" y="-15.0" />
+      <point x="1588.5803349875932" y="190.0" />
+      <point x="1641.5416666666667" y="190.0" />
+      <point x="-27.25" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.shapes.OvalShape" target="android.graphics.drawable.shapes.RectShape">
+      <point x="0.0" y="-15.0" />
+      <point x="328.0" y="500.0" />
+      <point x="221.33333333333334" y="500.0" />
+      <point x="34.33333333333334" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.StateListDrawable" target="android.graphics.drawable.DrawableContainer">
+      <point x="0.0" y="-15.0" />
+      <point x="1128.8303349875932" y="190.0" />
+      <point x="1308.125" y="190.0" />
+      <point x="-49.66666666666674" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.DrawableWrapper" target="android.graphics.drawable.Drawable">
+      <point x="0.0" y="-15.0" />
+      <point x="736.0" y="90.0" />
+      <point x="1058.7822580645163" y="90.0" />
+      <point x="-14.923076923076906" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.NinePatchDrawable" target="android.graphics.drawable.Drawable">
+      <point x="0.0" y="-15.0" />
+      <point x="1058.0" y="110.0" />
+      <point x="1073.7053349875932" y="110.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.ShapeDrawable" target="android.graphics.drawable.Drawable">
+      <point x="0.0" y="-15.0" />
+      <point x="1958.7916666666667" y="70.0" />
+      <point x="1111.0130272952856" y="70.0" />
+      <point x="37.30769230769238" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.InsetDrawable" target="android.graphics.drawable.DrawableWrapper">
+      <point x="0.0" y="-15.0" />
+      <point x="514.2053349875932" y="180.0" />
+      <point x="682.75" y="180.0" />
+      <point x="-53.25" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.TransitionDrawable" target="android.graphics.drawable.LayerDrawable">
+      <point x="0.0" y="-15.0" />
+      <point x="162.00744416873454" y="190.0" />
+      <point x="185.25" y="190.0" />
+      <point x="-31.25" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.GradientDrawable" target="android.graphics.drawable.Drawable">
+      <point x="0.0" y="-15.0" />
+      <point x="1523.2916666666667" y="90.0" />
+      <point x="1096.0899503722087" y="90.0" />
+      <point x="22.384615384615472" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.shapes.RoundRectShape" target="android.graphics.drawable.shapes.RectShape">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.ClipDrawable" target="android.graphics.drawable.DrawableWrapper">
+      <point x="0.0" y="-15.0" />
+      <point x="681.2053349875932" y="190.0" />
+      <point x="718.25" y="190.0" />
+      <point x="-17.75" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.AnimatedImageDrawable" target="android.graphics.drawable.Drawable">
+      <point x="45.5" y="-15.0" />
+      <point x="1963.7937344913153" y="265.0" />
+      <point x="2033.7916666666667" y="265.0" />
+      <point x="2033.7916666666667" y="60.0" />
+      <point x="1118.474565756824" y="60.0" />
+      <point x="44.76923076923072" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.ColorDrawable" target="android.graphics.drawable.Drawable">
+      <point x="0.0" y="-15.0" />
+      <point x="395.0" y="70.0" />
+      <point x="1043.8591811414394" y="70.0" />
+      <point x="-29.84615384615381" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.LevelListDrawable" target="android.graphics.drawable.DrawableContainer">
+      <point x="0.0" y="-15.0" />
+      <point x="1335.4553349875932" y="190.0" />
+      <point x="1357.7916666666667" y="190.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.Animatable2" target="android.graphics.drawable.Animatable">
+      <point x="0.0" y="-15.0" />
+      <point x="1726.6666666666667" y="190.0" />
+      <point x="1696.0416666666667" y="190.0" />
+      <point x="27.25" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.RotateDrawable" target="android.graphics.drawable.DrawableWrapper">
+      <point x="0.0" y="-15.0" />
+      <point x="972.8303349875932" y="180.0" />
+      <point x="789.25" y="180.0" />
+      <point x="53.25" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.LayerDrawable" target="android.graphics.drawable.Drawable">
+      <point x="0.0" y="-15.0" />
+      <point x="216.5" y="60.0" />
+      <point x="1036.3976426799009" y="60.0" />
+      <point x="-37.30769230769238" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.AnimationDrawable" target="android.graphics.drawable.DrawableContainer">
+      <point x="-38.25" y="-15.0" />
+      <point x="1512.0803349875932" y="190.0" />
+      <point x="1407.4583333333335" y="190.0" />
+      <point x="49.66666666666674" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.ScaleDrawable" target="android.graphics.drawable.DrawableWrapper">
+      <point x="0.0" y="-15.0" />
+      <point x="822.2053349875932" y="190.0" />
+      <point x="753.75" y="190.0" />
+      <point x="17.75" y="15.0" />
+    </edge>
+    <edge source="android.graphics.drawable.VectorDrawable" target="android.graphics.drawable.Drawable">
+      <point x="0.0" y="-15.0" />
+      <point x="1808.7916666666667" y="80.0" />
+      <point x="1103.551488833747" y="80.0" />
+      <point x="29.84615384615381" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="772.0" y="197.50000000000003" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

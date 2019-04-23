@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>android.graphics</OriginalElement>
+  <nodes>
+    <node x="0.0" y="930.0">android.graphics.Rect</node>
+    <node x="0.0" y="855.0">android.graphics.PointF</node>
+    <node x="649.0" y="90.0">android.graphics.DiscretePathEffect</node>
+    <node x="783.0" y="475.0">android.graphics.ImageDecoder</node>
+    <node x="145.0" y="245.0">android.graphics.RadialGradient</node>
+    <node x="290.0" y="245.0">android.graphics.ComposeShader</node>
+    <node x="315.5" y="165.0">android.graphics.Shader</node>
+    <node x="407.0" y="780.0">android.graphics.Canvas</node>
+    <node x="127.0" y="855.0">android.graphics.Matrix</node>
+    <node x="831.0" y="630.0">android.graphics.ColorMatrix</node>
+    <node x="379.0" y="855.0">android.graphics.RectF</node>
+    <node x="592.0" y="245.0">android.graphics.BitmapShader</node>
+    <node x="338.0" y="630.0">android.graphics.PostProcessor</node>
+    <node x="167.0" y="400.0">android.graphics.ColorMatrixColorFilter</node>
+    <node x="669.0" y="780.0">android.graphics.Region</node>
+    <node x="463.0" y="705.0">android.graphics.NinePatch</node>
+    <node x="611.0" y="705.0">android.graphics.PorterDuff</node>
+    <node x="141.0" y="780.0">android.graphics.Camera</node>
+    <node x="275.0" y="780.0">android.graphics.Outline</node>
+    <node x="0.0" y="705.0">android.graphics.Interpolator</node>
+    <node x="27.0" y="475.0">android.graphics.DrawFilter</node>
+    <node x="759.0" y="705.0">android.graphics.YuvImage</node>
+    <node x="352.0" y="400.0">android.graphics.PorterDuffColorFilter</node>
+    <node x="744.0" y="855.0">android.graphics.Paint</node>
+    <node x="491.0" y="90.0">android.graphics.CornerPathEffect</node>
+    <node x="227.5" y="475.0">android.graphics.Xfermode</node>
+    <node x="0.0" y="780.0">android.graphics.Typeface</node>
+    <node x="864.0" y="855.0">android.graphics.Path</node>
+    <node x="698.0" y="400.0">android.graphics.EmbossMaskFilter</node>
+    <node x="555.0" y="400.0">android.graphics.BlurMaskFilter</node>
+    <node x="170.0" y="630.0">android.graphics.RegionIterator</node>
+    <node x="426.5" y="0.0">android.graphics.PathEffect</node>
+    <node x="0.0" y="630.0">android.graphics.BitmapFactory</node>
+    <node x="155.0" y="705.0">android.graphics.PixelFormat</node>
+    <node x="253.0" y="855.0">android.graphics.Movie</node>
+    <node x="445.0" y="245.0">android.graphics.SweepGradient</node>
+    <node x="146.0" y="90.0">android.graphics.ComposePathEffect</node>
+    <node x="198.0" y="320.0">android.graphics.ColorFilter</node>
+    <node x="612.0" y="475.0">android.graphics.SurfaceTexture</node>
+    <node x="642.0" y="320.0">android.graphics.MaskFilter</node>
+    <node x="505.0" y="630.0">android.graphics.ImageFormat</node>
+    <node x="0.0" y="245.0">android.graphics.LinearGradient</node>
+    <node x="400.0" y="475.0">android.graphics.BitmapRegionDecoder</node>
+    <node x="669.0" y="630.0">android.graphics.PathMeasure</node>
+    <node x="319.0" y="90.0">android.graphics.PathDashPathEffect</node>
+    <node x="623.0" y="855.0">android.graphics.Point</node>
+    <node x="0.0" y="400.0">android.graphics.LightingColorFilter</node>
+    <node x="501.0" y="855.0">android.graphics.Color</node>
+    <node x="0.0" y="555.0">android.graphics.PaintFlagsDrawFilter</node>
+    <node x="200.0" y="555.0">android.graphics.PorterDuffXfermode</node>
+    <node x="813.0" y="90.0">android.graphics.DashPathEffect</node>
+    <node x="799.0" y="780.0">android.graphics.Picture</node>
+    <node x="538.0" y="780.0">android.graphics.Bitmap</node>
+    <node x="0.0" y="90.0">android.graphics.SumPathEffect</node>
+    <node x="310.0" y="705.0">android.graphics.ColorSpace</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="android.graphics.ComposePathEffect" target="android.graphics.PathEffect">
+      <point x="0.0" y="-15.0" />
+      <point x="222.5" y="60.0" />
+      <point x="452.0" y="60.0" />
+      <point x="-25.5" y="15.0" />
+    </edge>
+    <edge source="android.graphics.PathDashPathEffect" target="android.graphics.PathEffect">
+      <point x="0.0" y="-15.0" />
+      <point x="395.0" y="70.0" />
+      <point x="469.0" y="70.0" />
+      <point x="-8.5" y="15.0" />
+    </edge>
+    <edge source="android.graphics.RadialGradient" target="android.graphics.Shader">
+      <point x="0.0" y="-15.0" />
+      <point x="207.5" y="225.0" />
+      <point x="340.7" y="225.0" />
+      <point x="-16.80000000000001" y="15.0" />
+    </edge>
+    <edge source="android.graphics.DiscretePathEffect" target="android.graphics.PathEffect">
+      <point x="0.0" y="-15.0" />
+      <point x="721.0" y="60.0" />
+      <point x="503.0" y="60.0" />
+      <point x="25.5" y="15.0" />
+    </edge>
+    <edge source="android.graphics.EmbossMaskFilter" target="android.graphics.MaskFilter">
+      <point x="0.0" y="-15.0" />
+      <point x="769.5" y="375.0" />
+      <point x="718.5" y="375.0" />
+      <point x="25.5" y="15.0" />
+    </edge>
+    <edge source="android.graphics.DashPathEffect" target="android.graphics.PathEffect">
+      <point x="0.0" y="-15.0" />
+      <point x="877.0" y="50.0" />
+      <point x="520.0" y="50.0" />
+      <point x="42.5" y="15.0" />
+    </edge>
+    <edge source="android.graphics.BlurMaskFilter" target="android.graphics.MaskFilter">
+      <point x="0.0" y="-15.0" />
+      <point x="616.5" y="375.0" />
+      <point x="667.5" y="375.0" />
+      <point x="-25.5" y="15.0" />
+    </edge>
+    <edge source="android.graphics.CornerPathEffect" target="android.graphics.PathEffect">
+      <point x="0.0" y="-15.0" />
+      <point x="560.0" y="70.0" />
+      <point x="486.0" y="70.0" />
+      <point x="8.5" y="15.0" />
+    </edge>
+    <edge source="android.graphics.PorterDuffXfermode" target="android.graphics.Xfermode">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="android.graphics.ColorMatrixColorFilter" target="android.graphics.ColorFilter">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="android.graphics.PorterDuffColorFilter" target="android.graphics.ColorFilter">
+      <point x="0.0" y="-15.0" />
+      <point x="431.0" y="375.0" />
+      <point x="283.83333333333337" y="375.0" />
+      <point x="34.33333333333337" y="15.0" />
+    </edge>
+    <edge source="android.graphics.SweepGradient" target="android.graphics.Shader">
+      <point x="0.0" y="-15.0" />
+      <point x="508.5" y="225.0" />
+      <point x="374.3" y="225.0" />
+      <point x="16.80000000000001" y="15.0" />
+    </edge>
+    <edge source="android.graphics.PaintFlagsDrawFilter" target="android.graphics.DrawFilter">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="android.graphics.ComposeShader" target="android.graphics.Shader">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="android.graphics.SumPathEffect" target="android.graphics.PathEffect">
+      <point x="0.0" y="-15.0" />
+      <point x="63.0" y="50.0" />
+      <point x="435.0" y="50.0" />
+      <point x="-42.5" y="15.0" />
+    </edge>
+    <edge source="android.graphics.LightingColorFilter" target="android.graphics.ColorFilter">
+      <point x="0.0" y="-15.0" />
+      <point x="73.5" y="375.0" />
+      <point x="215.16666666666666" y="375.0" />
+      <point x="-34.33333333333334" y="15.0" />
+    </edge>
+    <edge source="android.graphics.LinearGradient" target="android.graphics.Shader">
+      <point x="0.0" y="-15.0" />
+      <point x="62.5" y="215.0" />
+      <point x="323.9" y="215.0" />
+      <point x="-33.60000000000002" y="15.0" />
+    </edge>
+    <edge source="android.graphics.BitmapShader" target="android.graphics.Shader">
+      <point x="0.0" y="-15.0" />
+      <point x="653.0" y="215.0" />
+      <point x="391.1" y="215.0" />
+      <point x="33.60000000000002" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="538.4999999999999" y="480.0" />
+  <SelectedNodes>
+    <node>android.graphics.Rect</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
