@@ -1,7 +1,7 @@
 package cc.wenmin92.androidlearn;
 
 import android.app.Application;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.util.Log;
 import timber.log.Timber;
 

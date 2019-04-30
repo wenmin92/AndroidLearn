@@ -1,6 +1,6 @@
 package cc.wenmin92.androidlearn.view.constraint;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import cc.wenmin92.androidlearn.R;

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>android.view.animation</OriginalElement>
+  <nodes>
+    <node x="155.0" y="345.0">android.view.animation.ScaleAnimation</node>
+    <node x="1107.0" y="190.0">android.view.animation.AnticipateInterpolator</node>
+    <node x="529.0" y="190.0">android.view.animation.PathInterpolator</node>
+    <node x="1453.0" y="190.0">android.view.animation.BounceInterpolator</node>
+    <node x="843.5" y="0.0">android.view.animation.Interpolator</node>
+    <node x="831.5" y="80.0">android.view.animation.BaseInterpolator</node>
+    <node x="446.0" y="345.0">android.view.animation.RotateAnimation</node>
+    <node x="370.0" y="190.0">android.view.animation.CycleInterpolator</node>
+    <node x="1236.0" y="265.0">android.view.animation.AnimationUtils</node>
+    <node x="1623.0" y="190.0">android.view.animation.AccelerateDecelerateInterpolator</node>
+    <node x="812.0" y="265.0">android.view.animation.LayoutAnimationController</node>
+    <node x="306.0" y="345.0">android.view.animation.AnimationSet</node>
+    <node x="1291.0" y="190.0">android.view.animation.LinearInterpolator</node>
+    <node x="683.0" y="190.0">android.view.animation.AnticipateOvershootInterpolator</node>
+    <node x="604.0" y="345.0">android.view.animation.TranslateAnimation</node>
+    <node x="185.0" y="190.0">android.view.animation.OvershootInterpolator</node>
+    <node x="801.0" y="345.0">android.view.animation.GridLayoutAnimationController</node>
+    <node x="1061.0" y="265.0">android.view.animation.Transformation</node>
+    <node x="314.0" y="265.0">android.view.animation.Animation</node>
+    <node x="0.0" y="345.0">android.view.animation.AlphaAnimation</node>
+    <node x="922.0" y="190.0">android.view.animation.DecelerateInterpolator</node>
+    <node x="0.0" y="190.0">android.view.animation.AccelerateInterpolator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="android.view.animation.PathInterpolator" target="android.view.animation.BaseInterpolator">
+      <point x="0.0" y="-15.0" />
+      <point x="596.0" y="160.0" />
+      <point x="878.4000000000001" y="160.0" />
+      <point x="-20.100000000000023" y="15.0" />
+    </edge>
+    <edge source="android.view.animation.BaseInterpolator" target="android.view.animation.Interpolator">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="android.view.animation.OvershootInterpolator" target="android.view.animation.BaseInterpolator">
+      <point x="0.0" y="-15.0" />
+      <point x="267.5" y="140.0" />
+      <point x="851.6000000000001" y="140.0" />
+      <point x="-46.89999999999998" y="15.0" />
+    </edge>
+    <edge source="android.view.animation.AnticipateOvershootInterpolator" target="android.view.animation.BaseInterpolator">
+      <point x="0.0" y="-15.0" />
+      <point x="792.5" y="170.0" />
+      <point x="891.8" y="170.0" />
+      <point x="-6.7000000000000455" y="15.0" />
+    </edge>
+    <edge source="android.view.animation.AnticipateInterpolator" target="android.view.animation.BaseInterpolator">
+      <point x="0.0" y="-15.0" />
+      <point x="1189.0" y="160.0" />
+      <point x="918.6000000000001" y="160.0" />
+      <point x="20.100000000000023" y="15.0" />
+    </edge>
+    <edge source="android.view.animation.AnimationSet" target="android.view.animation.Animation">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="android.view.animation.AccelerateDecelerateInterpolator" target="android.view.animation.BaseInterpolator">
+      <point x="0.0" y="-15.0" />
+      <point x="1733.0" y="130.0" />
+      <point x="958.8000000000002" y="130.0" />
+      <point x="60.30000000000007" y="15.0" />
+    </edge>
+    <edge source="android.view.animation.DecelerateInterpolator" target="android.view.animation.BaseInterpolator">
+      <point x="0.0" y="-15.0" />
+      <point x="1004.5" y="170.0" />
+      <point x="905.2" y="170.0" />
+      <point x="6.7000000000000455" y="15.0" />
+    </edge>
+    <edge source="android.view.animation.AlphaAnimation" target="android.view.animation.Animation">
+      <point x="0.0" y="-15.0" />
+      <point x="67.5" y="315.0" />
+      <point x="324.4" y="315.0" />
+      <point x="-41.60000000000002" y="15.0" />
+    </edge>
+    <edge source="android.view.animation.GridLayoutAnimationController" target="android.view.animation.LayoutAnimationController">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="android.view.animation.AccelerateInterpolator" target="android.view.animation.BaseInterpolator">
+      <point x="0.0" y="-15.0" />
+      <point x="82.5" y="130.0" />
+      <point x="838.2" y="130.0" />
+      <point x="-60.299999999999955" y="15.0" />
+    </edge>
+    <edge source="android.view.animation.ScaleAnimation" target="android.view.animation.Animation">
+      <point x="0.0" y="-15.0" />
+      <point x="220.5" y="325.0" />
+      <point x="345.2" y="325.0" />
+      <point x="-20.80000000000001" y="15.0" />
+    </edge>
+    <edge source="android.view.animation.CycleInterpolator" target="android.view.animation.BaseInterpolator">
+      <point x="0.0" y="-15.0" />
+      <point x="439.5" y="150.0" />
+      <point x="865.0" y="150.0" />
+      <point x="-33.5" y="15.0" />
+    </edge>
+    <edge source="android.view.animation.RotateAnimation" target="android.view.animation.Animation">
+      <point x="0.0" y="-15.0" />
+      <point x="515.0" y="325.0" />
+      <point x="386.79999999999995" y="325.0" />
+      <point x="20.799999999999955" y="15.0" />
+    </edge>
+    <edge source="android.view.animation.BounceInterpolator" target="android.view.animation.BaseInterpolator">
+      <point x="0.0" y="-15.0" />
+      <point x="1528.0" y="140.0" />
+      <point x="945.4000000000001" y="140.0" />
+      <point x="46.90000000000009" y="15.0" />
+    </edge>
+    <edge source="android.view.animation.TranslateAnimation" target="android.view.animation.Animation">
+      <point x="0.0" y="-15.0" />
+      <point x="680.0" y="315.0" />
+      <point x="407.59999999999997" y="315.0" />
+      <point x="41.599999999999966" y="15.0" />
+    </edge>
+    <edge source="android.view.animation.LinearInterpolator" target="android.view.animation.BaseInterpolator">
+      <point x="0.0" y="-15.0" />
+      <point x="1362.0" y="150.0" />
+      <point x="932.0" y="150.0" />
+      <point x="33.5" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="921.5" y="187.50000000000006" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -3,7 +3,7 @@ package cc.wenmin92.androidlearn.keyboard;
 import android.annotation.SuppressLint;
 import android.content.res.Configuration;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -41,11 +41,7 @@ public final class KeyboardActivity extends AppCompatActivity implements Keyboar
         // of this activity. This is because a popup window must be initialised
         // and attached to the activity root view. 
         View view = findViewById(R.id.activitylayout);
-        view.post(new Runnable() {
-            public void run() {
-                keyboardHeightProvider.start();
-            }
-        });
+        view.post(() -> keyboardHeightProvider.start());
     }
 
     /**
@@ -85,8 +81,8 @@ public final class KeyboardActivity extends AppCompatActivity implements Keyboar
         String or = orientation == Configuration.ORIENTATION_PORTRAIT ? "portrait" : "landscape";
         Timber.i("onKeyboardHeightChanged in pixels: " + height + " " + or);
 
-        TextView tv = (TextView) findViewById(R.id.height_text);
-        tv.setText(Integer.toString(height) + " " + or);
+        TextView tv = findViewById(R.id.height_text);
+        tv.setText(height + " " + or);
 
         // color the keyboard height view, this will stay when you close the keyboard
         View view = findViewById(R.id.keyboard);

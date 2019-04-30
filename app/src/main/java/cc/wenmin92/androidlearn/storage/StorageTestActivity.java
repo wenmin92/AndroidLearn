@@ -4,8 +4,10 @@ import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.annotation.RequiresApi;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -98,7 +100,7 @@ public class StorageTestActivity extends AppCompatActivity {
         }
     }
 
-    private void printFile(String tag, Object file) {
-        Timber.d("%s: %s", tag, file.toString()); // file.toString() = file.getPath()
+    private void printFile(String tag, @Nullable Object file) {
+        Timber.d("%s: %s", tag, file == null ? "null" : file.toString()); // file.toString() = file.getPath()
     }
 }

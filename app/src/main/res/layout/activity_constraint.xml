@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,7 +7,7 @@
     android:background="#eeee"
     tools:context=".view.constraint.ConstraintActivity">
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/dialog_container"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -27,7 +26,8 @@
             android:layout_height="wrap_content"
             android:contentDescription="@null"
             android:src="@drawable/ic_launcher_background"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/tv1"
@@ -36,14 +36,17 @@
             android:text="abc11111111111111111111abc"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/iv"
+            app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintWidth_max="wrap"
             tools:ignore="HardcodedText" />
 
-        <Button android:layout_width="0dp"
+        <Button
+            android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintDimensionRatio="10"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
         <!--<ScrollView-->
         <!--android:id="@+id/layout_feature"-->
@@ -71,5 +74,5 @@
         <!--5. [新增] 站点管理, 终端, 增加有线支持(无线|有线)-->
         <!--6. [新增] 站点管理, 设备, 终端, WLAN详情支持查看相关详细信息" />-->
         <!--</ScrollView>-->
-    </android.support.constraint.ConstraintLayout>
-</android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
