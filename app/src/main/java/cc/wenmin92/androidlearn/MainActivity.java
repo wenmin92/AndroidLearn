@@ -28,6 +28,7 @@ import cc.wenmin92.androidlearn.view.custom.CustomViewActivity;
 import cc.wenmin92.androidlearn.view.popupwindow.PopupWindowActivity;
 import cc.wenmin92.androidlearn.view.statusbar.StatusBarTestActivity;
 import cc.wenmin92.androidlearn.view.style.StyleActivity;
+import cc.wenmin92.androidlearn.view.viewpager.ViewPagerRvActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -63,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
         testItems.add(new TestItem(PopupWindowActivity.class, "Popup Window"));
         testItems.add(new TestItem(ShadowLayerActivity.class, "Paint-ShadowLayer"));
         testItems.add(new TestItem(CanvasTestActivity.class, "Canvas"));
+        testItems.add(new TestItem(ViewPagerRvActivity.class, "ViewPagerRv"));
         return testItems;
     }
 
