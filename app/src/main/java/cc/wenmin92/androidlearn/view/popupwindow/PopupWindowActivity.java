@@ -4,13 +4,13 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.PopupWindow;
 
+import androidx.appcompat.app.AppCompatActivity;
 import cc.wenmin92.androidlearn.R;
 import timber.log.Timber;
 
@@ -30,6 +30,7 @@ public class PopupWindowActivity extends AppCompatActivity {
         popupBasic = new PopupWindow(layout, ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         popupBasic.setAnimationStyle(android.R.style.Animation_Dialog);
         popupBasic.setFocusable(true);
+        // popupBasic.setClippingEnabled(false); 默认true, 是否允许剪裁 (设成false后, 可以超出屏幕范围, 如, 显示在底部导航栏上)
         popupBasic.setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         popupBasic.setOutsideTouchable(true);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -41,7 +42,7 @@ public class PopupWindowActivity extends AppCompatActivity {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_basic:
-                popupBasic.showAsDropDown(view, 0, 0, Gravity.CENTER);
+                popupBasic.showAtLocation(findViewById(R.id.tv_bottom), Gravity.BOTTOM, 0, 0);
                 view.postDelayed(() -> Timber.d("popupBasic.isAboveAnchor()=%b", popupBasic.isAboveAnchor()), 500);
                 view.postDelayed(() -> {
                     Timber.d("popupBasic.getMaxAvailableHeight()=%s", popupBasic.getMaxAvailableHeight(findViewById(R.id.btn_basic)));
