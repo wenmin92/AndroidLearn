@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>android.text.Layout</OriginalElement>
+  <nodes>
+    <node x="160.0" y="78.0">android.text.StaticLayout</node>
+    <node x="320.0" y="78.0">android.text.DynamicLayout</node>
+    <node x="184.0" y="0.0">android.text.Layout</node>
+    <node x="0.0" y="78.0">android.text.BoringLayout</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="android.text.DynamicLayout" target="android.text.Layout">
+      <point x="0.0" y="-14.0" />
+      <point x="394.0" y="53.0" />
+      <point x="260.6666666666667" y="53.0" />
+      <point x="30.666666666666686" y="14.0" />
+    </edge>
+    <edge source="android.text.StaticLayout" target="android.text.Layout">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="android.text.BoringLayout" target="android.text.Layout">
+      <point x="0.0" y="-14.0" />
+      <point x="70.0" y="53.0" />
+      <point x="199.33333333333334" y="53.0" />
+      <point x="-30.666666666666657" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="234.0" y="53.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

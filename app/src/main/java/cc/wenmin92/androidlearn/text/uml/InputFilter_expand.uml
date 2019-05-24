@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>android.text</OriginalElement>
+  <nodes>
+    <node x="1052.75" y="0.0">android.text.NoCopySpan</node>
+    <node x="791.2499999999999" y="156.0">android.text.method.MultiTapKeyListener</node>
+    <node x="231.9999999999999" y="156.0">android.text.LoginFilter</node>
+    <node x="583.9999999999999" y="156.0">android.text.method.QwertyKeyListener</node>
+    <node x="20.0" y="541.0">android.text.method.LinkMovementMethod</node>
+    <node x="749.4999999999999" y="0.0">android.text.method.MetaKeyKeyListener</node>
+    <node x="1472.25" y="78.0">android.text.method.TransformationMethod</node>
+    <node x="513.0" y="307.0">android.text.method.CharacterPickerDialog</node>
+    <node x="383.9999999999999" y="156.0">android.text.method.NumberKeyListener</node>
+    <node x="968.2499999999999" y="78.0">android.text.SpanWatcher</node>
+    <node x="1191.25" y="156.0">android.text.method.PasswordTransformationMethod</node>
+    <node x="159.0" y="307.0">android.text.method.MovementMethod</node>
+    <node x="248.0" y="463.0">android.text.method.ArrowKeyMovementMethod</node>
+    <node x="896.5" y="234.0">android.text.method.DateTimeKeyListener</node>
+    <node x="597.4999999999999" y="0.0">android.text.method.KeyListener</node>
+    <node x="939.0" y="307.0">android.text.method.Touch</node>
+    <node x="0.0" y="234.0">android.text.method.TimeKeyListener</node>
+    <node x="0.0" y="463.0">android.text.method.ScrollingMovementMethod</node>
+    <node x="1648.75" y="234.0">android.text.method.HideReturnsTransformationMethod</node>
+    <node x="712.5" y="234.0">android.text.method.DateKeyListener</node>
+    <node x="1479.25" y="156.0">android.text.method.ReplacementTransformationMethod</node>
+    <node x="770.0" y="307.0">android.text.method.TextKeyListener.Capitalize</node>
+    <node x="184.0" y="234.0">android.text.method.DigitsKeyListener</node>
+    <node x="297.4999999999999" y="78.0">android.text.InputFilter</node>
+    <node x="143.0" y="385.0">android.text.method.BaseMovementMethod</node>
+    <node x="1344.75" y="234.0">android.text.method.SingleLineTransformationMethod</node>
+    <node x="1007.2499999999999" y="156.0">android.text.method.TextKeyListener</node>
+    <node x="671.4999999999999" y="78.0">android.text.method.BaseKeyListener</node>
+    <node x="384.0" y="234.0">android.text.method.DialerKeyListener</node>
+    <node x="1192.25" y="78.0">android.text.TextWatcher</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="android.text.method.BaseMovementMethod" target="android.text.method.MovementMethod">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="android.text.method.TimeKeyListener" target="android.text.method.NumberKeyListener">
+      <point x="0.0" y="-14.0" />
+      <point x="82.0" y="204.0" />
+      <point x="401.9999999999999" y="204.0" />
+      <point x="-72.0" y="14.0" />
+    </edge>
+    <edge source="android.text.method.MultiTapKeyListener" target="android.text.SpanWatcher">
+      <point x="49.0" y="-14.0" />
+      <point x="938.2499999999999" y="136.0" />
+      <point x="1001.2499999999999" y="136.0" />
+      <point x="-33.0" y="14.0" />
+    </edge>
+    <edge source="android.text.method.NumberKeyListener" target="android.text.InputFilter">
+      <point x="-45.0" y="-14.0" />
+      <point x="428.9999999999999" y="136.0" />
+      <point x="396.4999999999999" y="136.0" />
+      <point x="33.0" y="14.0" />
+    </edge>
+    <edge source="android.text.method.LinkMovementMethod" target="android.text.method.ScrollingMovementMethod">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="android.text.method.BaseKeyListener" target="android.text.method.KeyListener">
+      <point x="-41.0" y="-14.0" />
+      <point x="712.4999999999999" y="53.0" />
+      <point x="663.4999999999999" y="53.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="android.text.method.PasswordTransformationMethod" target="android.text.method.TransformationMethod">
+      <point x="67.0" y="-14.0" />
+      <point x="1392.25" y="136.0" />
+      <point x="1523.25" y="136.0" />
+      <point x="-51.0" y="14.0" />
+    </edge>
+    <edge source="android.text.TextWatcher" target="android.text.NoCopySpan">
+      <point x="0.0" y="-14.0" />
+      <point x="1258.25" y="53.0" />
+      <point x="1145.75" y="53.0" />
+      <point x="31.0" y="14.0" />
+    </edge>
+    <edge source="android.text.method.DateTimeKeyListener" target="android.text.method.NumberKeyListener">
+      <point x="0.0" y="-14.0" />
+      <point x="994.5" y="204.0" />
+      <point x="545.9999999999999" y="204.0" />
+      <point x="72.0" y="14.0" />
+    </edge>
+    <edge source="android.text.method.ArrowKeyMovementMethod" target="android.text.method.MovementMethod">
+      <point x="55.0" y="-14.0" />
+      <point x="413.0" y="438.0" />
+      <point x="387.03571428571433" y="438.0" />
+      <point x="387.03571428571433" y="360.0" />
+      <point x="289.0" y="360.0" />
+      <point x="52.0" y="14.0" />
+    </edge>
+    <edge source="android.text.method.DialerKeyListener" target="android.text.method.NumberKeyListener">
+      <point x="-1.1368683772161603E-13" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="android.text.method.TextKeyListener" target="android.text.SpanWatcher">
+      <point x="41.0" y="-14.0" />
+      <point x="1130.25" y="136.0" />
+      <point x="1067.25" y="136.0" />
+      <point x="33.0" y="14.0" />
+    </edge>
+    <edge source="android.text.method.QwertyKeyListener" target="android.text.method.BaseKeyListener">
+      <point x="0.0" y="-14.0" />
+      <point x="673.9999999999999" y="136.0" />
+      <point x="732.9999999999999" y="136.0" />
+      <point x="-20.5" y="14.0" />
+    </edge>
+    <edge source="android.text.method.HideReturnsTransformationMethod" target="android.text.method.ReplacementTransformationMethod">
+      <point x="0.0" y="-14.0" />
+      <point x="1794.75" y="214.0" />
+      <point x="1698.25" y="214.0" />
+      <point x="73.0" y="14.0" />
+    </edge>
+    <edge source="android.text.method.MultiTapKeyListener" target="android.text.method.BaseKeyListener">
+      <point x="-49.0" y="-14.0" />
+      <point x="840.2499999999999" y="136.0" />
+      <point x="773.9999999999999" y="136.0" />
+      <point x="20.5" y="14.0" />
+    </edge>
+    <edge source="android.text.method.ScrollingMovementMethod" target="android.text.method.MovementMethod">
+      <point x="-57.0" y="-14.0" />
+      <point x="57.0" y="438.0" />
+      <point x="85.5357142857143" y="438.0" />
+      <point x="85.5357142857143" y="360.0" />
+      <point x="185.0" y="360.0" />
+      <point x="-52.0" y="14.0" />
+    </edge>
+    <edge source="android.text.method.ScrollingMovementMethod" target="android.text.method.BaseMovementMethod">
+      <point x="57.0" y="-14.0" />
+      <point x="171.0" y="438.0" />
+      <point x="190.0" y="438.0" />
+      <point x="-47.0" y="14.0" />
+    </edge>
+    <edge source="android.text.method.PasswordTransformationMethod" target="android.text.TextWatcher">
+      <point x="-67.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="android.text.method.NumberKeyListener" target="android.text.method.BaseKeyListener">
+      <point x="45.0" y="-14.0" />
+      <point x="518.9999999999999" y="126.0" />
+      <point x="691.9999999999999" y="126.0" />
+      <point x="-61.5" y="14.0" />
+    </edge>
+    <edge source="android.text.method.ArrowKeyMovementMethod" target="android.text.method.BaseMovementMethod">
+      <point x="-55.0" y="-14.0" />
+      <point x="303.0" y="438.0" />
+      <point x="284.0" y="438.0" />
+      <point x="47.0" y="14.0" />
+    </edge>
+    <edge source="android.text.LoginFilter" target="android.text.InputFilter">
+      <point x="0.0" y="-14.0" />
+      <point x="297.9999999999999" y="136.0" />
+      <point x="330.4999999999999" y="136.0" />
+      <point x="-33.0" y="14.0" />
+    </edge>
+    <edge source="android.text.method.TextKeyListener" target="android.text.method.BaseKeyListener">
+      <point x="-41.0" y="-14.0" />
+      <point x="1048.25" y="126.0" />
+      <point x="814.9999999999999" y="126.0" />
+      <point x="61.5" y="14.0" />
+    </edge>
+    <edge source="android.text.method.DigitsKeyListener" target="android.text.method.NumberKeyListener">
+      <point x="0.0" y="-14.0" />
+      <point x="274.0" y="214.0" />
+      <point x="437.9999999999999" y="214.0" />
+      <point x="-36.0" y="14.0" />
+    </edge>
+    <edge source="android.text.method.DateKeyListener" target="android.text.method.NumberKeyListener">
+      <point x="0.0" y="-14.0" />
+      <point x="794.5" y="214.0" />
+      <point x="509.9999999999999" y="214.0" />
+      <point x="36.0" y="14.0" />
+    </edge>
+    <edge source="android.text.method.SingleLineTransformationMethod" target="android.text.method.ReplacementTransformationMethod">
+      <point x="0.0" y="-14.0" />
+      <point x="1486.75" y="214.0" />
+      <point x="1552.25" y="214.0" />
+      <point x="-73.0" y="14.0" />
+    </edge>
+    <edge source="android.text.method.BaseKeyListener" target="android.text.method.MetaKeyKeyListener">
+      <point x="41.0" y="-14.0" />
+      <point x="794.4999999999999" y="53.0" />
+      <point x="843.4999999999999" y="53.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="android.text.SpanWatcher" target="android.text.NoCopySpan">
+      <point x="0.0" y="-14.0" />
+      <point x="1034.25" y="53.0" />
+      <point x="1083.75" y="53.0" />
+      <point x="-31.0" y="14.0" />
+    </edge>
+    <edge source="android.text.method.ReplacementTransformationMethod" target="android.text.method.TransformationMethod">
+      <point x="0.0" y="-14.0" />
+      <point x="51.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="745.5" y="434.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

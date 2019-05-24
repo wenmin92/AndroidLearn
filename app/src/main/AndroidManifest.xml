@@ -13,7 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.viewpager.ViewPagerRvActivity"></activity>
+        <activity android:name=".text.TextTestActivity">
+        </activity>
+        <activity android:name=".view.viewpager.ViewPagerRvActivity" />
         <activity android:name=".graphics.canvas.CanvasTestActivity" />
         <activity android:name=".graphics.paint.other.ShadowLayerActivity" />
         <activity android:name=".view.popupwindow.PopupWindowActivity" />

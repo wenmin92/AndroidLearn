@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>android.text</OriginalElement>
+  <nodes>
+    <node x="0.0" y="156.0">android.text.SpannedString</node>
+    <node x="314.8638888888889" y="0.0">android.text.Spanned</node>
+    <node x="603.75" y="78.0">android.text.Spannable</node>
+    <node x="385.0" y="156.0">android.text.Editable</node>
+    <node x="320.5" y="78.0">android.text.GetChars</node>
+    <node x="375.56527777777774" y="234.0">android.text.SpannableStringBuilder</node>
+    <node x="168.0" y="156.0">android.text.AlteredCharSequence</node>
+    <node x="698.0" y="156.0">android.text.PrecomputedText</node>
+    <node x="513.0" y="156.0">android.text.SpannableString</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="android.text.SpannableStringBuilder" target="android.text.Editable">
+      <point x="0.0" y="-14.0" />
+      <point x="485.56527777777774" y="209.0" />
+      <point x="439.0" y="209.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="android.text.Spannable" target="android.text.Spanned">
+      <point x="0.0" y="-14.0" />
+      <point x="661.75" y="53.0" />
+      <point x="389.8638888888889" y="53.0" />
+      <point x="25.0" y="14.0" />
+    </edge>
+    <edge source="android.text.SpannableStringBuilder" target="android.text.Spannable">
+      <point x="73.33333333333337" y="-14.0" />
+      <point x="558.8986111111111" y="209.0" />
+      <point x="687.5" y="209.0" />
+      <point x="687.5" y="136.0" />
+      <point x="676.25" y="136.0" />
+      <point x="14.5" y="14.0" />
+    </edge>
+    <edge source="android.text.SpannableStringBuilder" target="android.text.GetChars">
+      <point x="-73.33333333333326" y="-14.0" />
+      <point x="412.2319444444445" y="209.0" />
+      <point x="374.5" y="209.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="android.text.SpannableString" target="android.text.Spannable">
+      <point x="41.0" y="-14.0" />
+      <point x="636.0" y="136.0" />
+      <point x="647.25" y="136.0" />
+      <point x="-14.5" y="14.0" />
+    </edge>
+    <edge source="android.text.SpannedString" target="android.text.Spanned">
+      <point x="-37.0" y="-14.0" />
+      <point x="37.0" y="53.0" />
+      <point x="339.8638888888889" y="53.0" />
+      <point x="-25.0" y="14.0" />
+    </edge>
+    <edge source="android.text.Editable" target="android.text.GetChars">
+      <point x="-27.0" y="-14.0" />
+      <point x="412.0" y="136.0" />
+      <point x="396.1" y="136.0" />
+      <point x="21.600000000000023" y="14.0" />
+    </edge>
+    <edge source="android.text.SpannableString" target="android.text.GetChars">
+      <point x="-41.0" y="-14.0" />
+      <point x="554.0" y="126.0" />
+      <point x="417.7" y="126.0" />
+      <point x="43.19999999999999" y="14.0" />
+    </edge>
+    <edge source="android.text.Editable" target="android.text.Spannable">
+      <point x="27.0" y="-14.0" />
+      <point x="466.0" y="136.0" />
+      <point x="618.25" y="136.0" />
+      <point x="-43.5" y="14.0" />
+    </edge>
+    <edge source="android.text.AlteredCharSequence" target="android.text.GetChars">
+      <point x="0.0" y="-14.0" />
+      <point x="266.0" y="136.0" />
+      <point x="352.9" y="136.0" />
+      <point x="-21.600000000000023" y="14.0" />
+    </edge>
+    <edge source="android.text.SpannedString" target="android.text.GetChars">
+      <point x="37.0" y="-14.0" />
+      <point x="111.0" y="126.0" />
+      <point x="331.3" y="126.0" />
+      <point x="-43.19999999999999" y="14.0" />
+    </edge>
+    <edge source="android.text.PrecomputedText" target="android.text.Spannable">
+      <point x="0.0" y="-14.0" />
+      <point x="780.0" y="136.0" />
+      <point x="705.25" y="136.0" />
+      <point x="43.5" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="431.0" y="131.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

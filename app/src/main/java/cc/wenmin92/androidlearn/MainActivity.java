@@ -21,6 +21,7 @@ import cc.wenmin92.androidlearn.graphics.paint.shader.ShaderTestActivity;
 import cc.wenmin92.androidlearn.keyboard.KeyboardActivity;
 import cc.wenmin92.androidlearn.service.location.LocationActivity;
 import cc.wenmin92.androidlearn.storage.StorageTestActivity;
+import cc.wenmin92.androidlearn.text.TextTestActivity;
 import cc.wenmin92.androidlearn.view.anim.AddViewAnimActivity;
 import cc.wenmin92.androidlearn.view.anim.AnimActivity;
 import cc.wenmin92.androidlearn.view.constraint.ConstraintActivity;
@@ -65,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
         testItems.add(new TestItem(ShadowLayerActivity.class, "Paint-ShadowLayer"));
         testItems.add(new TestItem(CanvasTestActivity.class, "Canvas"));
         testItems.add(new TestItem(ViewPagerRvActivity.class, "ViewPagerRv"));
+        testItems.add(new TestItem(TextTestActivity.class, "Text"));
         return testItems;
     }
 

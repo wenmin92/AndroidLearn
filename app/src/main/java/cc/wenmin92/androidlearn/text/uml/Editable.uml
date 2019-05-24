@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>android.text.Spannable</OriginalElement>
+  <nodes>
+    <node x="282.5" y="210.0">android.text.Spanned</node>
+    <node x="527.5555555555555" y="0.0">java.lang.CharSequence</node>
+    <node x="0.0" y="398.0">java.lang.Appendable</node>
+    <node x="294.0" y="409.0">android.text.Spannable</node>
+    <node x="378.25" y="542.0">android.text.Editable</node>
+    <node x="538.5" y="254.0">android.text.GetChars</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="android.text.Spannable" target="android.text.Spanned">
+      <point x="0.0" y="-36.0" />
+      <point x="0.0" y="69.0" />
+    </edge>
+    <edge source="android.text.Editable" target="java.lang.CharSequence">
+      <point x="108.75" y="-146.0" />
+      <point x="632.0" y="522.0" />
+      <point x="764.0" y="522.0" />
+      <point x="764.0" y="185.0" />
+      <point x="722.5555555555557" y="185.0" />
+      <point x="78.00000000000001" y="80.0" />
+    </edge>
+    <edge source="android.text.Editable" target="android.text.Spannable">
+      <point x="-36.25" y="-146.0" />
+      <point x="487.0" y="512.0" />
+      <point x="400.5" y="512.0" />
+      <point x="0.0" y="36.0" />
+    </edge>
+    <edge source="android.text.Editable" target="java.lang.Appendable">
+      <point x="-108.75" y="-146.0" />
+      <point x="414.5" y="522.0" />
+      <point x="137.0" y="522.0" />
+      <point x="0.0" y="47.0" />
+    </edge>
+    <edge source="android.text.Spanned" target="java.lang.CharSequence">
+      <point x="0.0" y="-69.0" />
+      <point x="400.5" y="185.0" />
+      <point x="566.5555555555555" y="185.0" />
+      <point x="-78.0" y="80.0" />
+    </edge>
+    <edge source="android.text.GetChars" target="java.lang.CharSequence">
+      <point x="0.0" y="-25.0" />
+      <point x="646.0" y="185.0" />
+      <point x="644.5555555555555" y="185.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="android.text.Editable" target="android.text.GetChars">
+      <point x="36.25" y="-146.0" />
+      <point x="559.5" y="512.0" />
+      <point x="646.0" y="512.0" />
+      <point x="0.0" y="25.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="197.0" y="131.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

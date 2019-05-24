@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>android.text</OriginalElement>
+  <nodes>
+    <node x="0.0" y="254.0">android.text.SpannedString</node>
+    <node x="99.75396825396831" y="88.0">android.text.Spanned</node>
+    <node x="368.6309523809524" y="176.0">android.text.Spannable</node>
+    <node x="205.82936507936512" y="254.0">android.text.Editable</node>
+    <node x="118.0" y="176.0">android.text.GetChars</node>
+    <node x="252.07936507936515" y="332.0">android.text.SpannableStringBuilder</node>
+    <node x="164.50000000000003" y="0.0">java.lang.CharSequence</node>
+    <node x="333.8293650793651" y="254.0">android.text.SpannableString</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="android.text.SpannableStringBuilder" target="android.text.Editable">
+      <point x="-27.50000000000003" y="-14.0" />
+      <point x="334.5793650793651" y="302.0" />
+      <point x="259.8293650793651" y="302.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="android.text.Spannable" target="android.text.Spanned">
+      <point x="0.0" y="-14.0" />
+      <point x="426.6309523809524" y="136.0" />
+      <point x="174.7539682539683" y="136.0" />
+      <point x="25.0" y="14.0" />
+    </edge>
+    <edge source="android.text.SpannableStringBuilder" target="android.text.GetChars">
+      <point x="-82.50000000000003" y="-14.0" />
+      <point x="279.5793650793651" y="312.0" />
+      <point x="158.5" y="312.0" />
+      <point x="-13.5" y="14.0" />
+    </edge>
+    <edge source="android.text.SpannableStringBuilder" target="android.text.Spannable">
+      <point x="27.49999999999997" y="-14.0" />
+      <point x="389.5793650793651" y="302.0" />
+      <point x="508.3293650793651" y="302.0" />
+      <point x="508.3293650793651" y="224.0" />
+      <point x="465.29761904761904" y="224.0" />
+      <point x="38.66666666666666" y="14.0" />
+    </edge>
+    <edge source="android.text.SpannableString" target="java.lang.CharSequence">
+      <point x="54.666666666666686" y="-14.0" />
+      <point x="470.4960317460318" y="234.0" />
+      <point x="495.1309523809524" y="234.0" />
+      <point x="495.1309523809524" y="68.0" />
+      <point x="269.5" y="68.0" />
+      <point x="35.0" y="14.0" />
+    </edge>
+    <edge source="android.text.GetChars" target="java.lang.CharSequence">
+      <point x="0.0" y="-14.0" />
+      <point x="172.0" y="146.0" />
+      <point x="89.25396825396831" y="146.0" />
+      <point x="89.25396825396831" y="58.0" />
+      <point x="199.50000000000003" y="58.0" />
+      <point x="-35.0" y="14.0" />
+    </edge>
+    <edge source="android.text.SpannableString" target="android.text.Spannable">
+      <point x="0.0" y="-14.0" />
+      <point x="415.8293650793651" y="234.0" />
+      <point x="426.6309523809524" y="234.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="android.text.SpannedString" target="android.text.Spanned">
+      <point x="0.0" y="-14.0" />
+      <point x="74.0" y="234.0" />
+      <point x="54.833333333333314" y="234.0" />
+      <point x="54.833333333333314" y="156.0" />
+      <point x="124.75396825396831" y="156.0" />
+      <point x="-25.0" y="14.0" />
+    </edge>
+    <edge source="android.text.SpannedString" target="java.lang.CharSequence">
+      <point x="-49.33333333333337" y="-14.0" />
+      <point x="24.66666666666663" y="234.0" />
+      <point x="26.083333333333314" y="234.0" />
+      <point x="26.083333333333314" y="48.0" />
+      <point x="176.1666666666667" y="48.0" />
+      <point x="-58.333333333333314" y="14.0" />
+    </edge>
+    <edge source="android.text.Editable" target="android.text.GetChars">
+      <point x="-36.0" y="-14.0" />
+      <point x="223.82936507936512" y="234.0" />
+      <point x="185.5" y="234.0" />
+      <point x="13.5" y="14.0" />
+    </edge>
+    <edge source="android.text.SpannableString" target="android.text.GetChars">
+      <point x="-54.66666666666666" y="-14.0" />
+      <point x="361.16269841269843" y="224.0" />
+      <point x="212.5" y="224.0" />
+      <point x="40.5" y="14.0" />
+    </edge>
+    <edge source="android.text.Editable" target="java.lang.CharSequence">
+      <point x="0.0" y="-14.0" />
+      <point x="259.8293650793651" y="68.0" />
+      <point x="246.16666666666666" y="68.0" />
+      <point x="11.666666666666629" y="14.0" />
+    </edge>
+    <edge source="android.text.Editable" target="android.text.Spannable">
+      <point x="36.0" y="-14.0" />
+      <point x="295.8293650793651" y="234.0" />
+      <point x="387.9642857142858" y="234.0" />
+      <point x="-38.666666666666664" y="14.0" />
+    </edge>
+    <edge source="android.text.Spanned" target="java.lang.CharSequence">
+      <point x="0.0" y="-14.0" />
+      <point x="149.7539682539683" y="68.0" />
+      <point x="222.83333333333334" y="68.0" />
+      <point x="-11.666666666666686" y="14.0" />
+    </edge>
+    <edge source="android.text.SpannedString" target="android.text.GetChars">
+      <point x="49.333333333333314" y="-14.0" />
+      <point x="123.33333333333331" y="234.0" />
+      <point x="131.5" y="234.0" />
+      <point x="-40.5" y="14.0" />
+    </edge>
+    <edge source="android.text.SpannableStringBuilder" target="java.lang.CharSequence">
+      <point x="82.49999999999997" y="-14.0" />
+      <point x="444.5793650793651" y="312.0" />
+      <point x="523.1706349206349" y="312.0" />
+      <point x="523.1706349206349" y="58.0" />
+      <point x="292.83333333333337" y="58.0" />
+      <point x="58.333333333333314" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="746.0" y="435.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
