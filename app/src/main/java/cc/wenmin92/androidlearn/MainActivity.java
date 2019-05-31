@@ -30,6 +30,7 @@ import cc.wenmin92.androidlearn.view.popupwindow.PopupWindowActivity;
 import cc.wenmin92.androidlearn.view.statusbar.StatusBarTestActivity;
 import cc.wenmin92.androidlearn.view.style.StyleActivity;
 import cc.wenmin92.androidlearn.view.viewpager.ViewPagerRvActivity;
+import cc.wenmin92.androidlearn.widget.NestRecyclerActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -67,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
         testItems.add(new TestItem(CanvasTestActivity.class, "Canvas"));
         testItems.add(new TestItem(ViewPagerRvActivity.class, "ViewPagerRv"));
         testItems.add(new TestItem(TextTestActivity.class, "Text"));
+        testItems.add(new TestItem(NestRecyclerActivity.class, "NestRecyclerView"));
         return testItems;
     }
 
