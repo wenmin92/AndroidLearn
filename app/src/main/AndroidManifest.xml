@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="cc.wenmin92.androidlearn">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:name=".MyApplication"
@@ -9,9 +13,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".widget.NestRecyclerActivity"></activity>
-        <activity android:name=".text.TextTestActivity"></activity>
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name=".widget.recyclerview.NestRecyclerActivity" />
+        <activity android:name=".text.TextTestActivity" />
         <activity android:name=".view.viewpager.ViewPagerRvActivity" />
         <activity android:name=".graphics.canvas.CanvasTestActivity" />
         <activity android:name=".graphics.paint.other.ShadowLayerActivity" />
@@ -35,8 +41,5 @@
         <activity android:name=".graphics.paint.path_effect.PathEffectTestActivity" />
         <activity android:name=".view.anim.AddViewAnimActivity" />
     </application>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
 </manifest>

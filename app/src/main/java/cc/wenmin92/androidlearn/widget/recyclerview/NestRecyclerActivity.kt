@@ -1,4 +1,4 @@
-package cc.wenmin92.androidlearn.widget
+package cc.wenmin92.androidlearn.widget.recyclerview
 
 import android.os.Bundle
 import android.view.LayoutInflater

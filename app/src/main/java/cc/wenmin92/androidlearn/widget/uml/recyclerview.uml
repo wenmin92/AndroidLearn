@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>androidx.recyclerview.widget</OriginalElement>
+  <nodes>
+    <node x="297.0" y="453.0">androidx.recyclerview.widget.DividerItemDecoration</node>
+    <node x="563.0" y="672.0">androidx.recyclerview.widget.OpReorderer</node>
+    <node x="409.0" y="229.0">androidx.recyclerview.widget.GridLayoutManager</node>
+    <node x="418.0" y="599.0">androidx.recyclerview.widget.AdapterHelper</node>
+    <node x="450.0" y="526.0">androidx.recyclerview.widget.ViewBoundsCheck</node>
+    <node x="0.0" y="526.0">androidx.recyclerview.widget.AsyncDifferConfig</node>
+    <node x="536.0" y="78.0">androidx.recyclerview.widget.SortedListAdapterCallback</node>
+    <node x="269.0" y="302.0">androidx.recyclerview.widget.ThreadUtil</node>
+    <node x="646.0" y="151.0">androidx.recyclerview.widget.SimpleItemAnimator</node>
+    <node x="192.0" y="229.0">androidx.recyclerview.widget.PagerSnapHelper</node>
+    <node x="466.0" y="302.0">androidx.recyclerview.widget.RecyclerViewAccessibilityDelegate</node>
+    <node x="659.0" y="526.0">androidx.recyclerview.widget.ItemTouchHelper</node>
+    <node x="531.0" y="745.0">androidx.recyclerview.widget.SortedList</node>
+    <node x="193.0" y="672.0">androidx.recyclerview.widget.RecyclerView</node>
+    <node x="0.0" y="229.0">androidx.recyclerview.widget.LinearSnapHelper</node>
+    <node x="0.0" y="745.0">androidx.recyclerview.widget.ListAdapter</node>
+    <node x="177.0" y="745.0">androidx.recyclerview.widget.LayoutState</node>
+    <node x="264.0" y="78.0">androidx.recyclerview.widget.BatchingListUpdateCallback</node>
+    <node x="296.0" y="0.0">androidx.recyclerview.widget.ListUpdateCallback</node>
+    <node x="16.0" y="302.0">androidx.recyclerview.widget.ItemTouchUIUtil</node>
+    <node x="0.0" y="818.0">androidx.recyclerview.widget.DiffUtil</node>
+    <node x="378.0" y="672.0">androidx.recyclerview.widget.FastScroller</node>
+    <node x="700.0" y="745.0">androidx.recyclerview.widget.GapWorker</node>
+    <node x="354.0" y="745.0">androidx.recyclerview.widget.ChildHelper</node>
+    <node x="0.0" y="599.0">androidx.recyclerview.widget.ScrollbarHelper</node>
+    <node x="642.0" y="229.0">androidx.recyclerview.widget.DefaultItemAnimator</node>
+    <node x="611.0" y="599.0">androidx.recyclerview.widget.ViewInfoStore</node>
+    <node x="225.0" y="526.0">androidx.recyclerview.widget.OrientationHelper</node>
+    <node x="153.0" y="818.0">androidx.recyclerview.widget.TileList</node>
+    <node x="554.0" y="453.0">androidx.recyclerview.widget.LinearSmoothScroller</node>
+    <node x="118.0" y="151.0">androidx.recyclerview.widget.SnapHelper</node>
+    <node x="209.0" y="599.0">androidx.recyclerview.widget.AsyncListDiffer</node>
+    <node x="0.0" y="78.0">androidx.recyclerview.widget.AdapterListUpdateCallback</node>
+    <node x="0.0" y="380.0">androidx.recyclerview.widget.ItemTouchUIUtilImpl</node>
+    <node x="401.0" y="151.0">androidx.recyclerview.widget.LinearLayoutManager</node>
+    <node x="0.0" y="672.0">androidx.recyclerview.widget.AsyncListUtil</node>
+    <node x="241.0" y="380.0">androidx.recyclerview.widget.MessageThreadUtil</node>
+    <node x="0.0" y="453.0">androidx.recyclerview.widget.StaggeredGridLayoutManager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="androidx.recyclerview.widget.GridLayoutManager" target="androidx.recyclerview.widget.LinearLayoutManager">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="androidx.recyclerview.widget.LinearSnapHelper" target="androidx.recyclerview.widget.SnapHelper">
+      <point x="0.0" y="-14.0" />
+      <point x="86.0" y="204.0" />
+      <point x="149.0" y="204.0" />
+      <point x="-31.0" y="14.0" />
+    </edge>
+    <edge source="androidx.recyclerview.widget.SortedListAdapterCallback" target="androidx.recyclerview.widget.ListUpdateCallback">
+      <point x="0.0" y="-14.0" />
+      <point x="658.0" y="53.0" />
+      <point x="452.66666666666663" y="53.0" />
+      <point x="62.66666666666663" y="14.0" />
+    </edge>
+    <edge source="androidx.recyclerview.widget.MessageThreadUtil" target="androidx.recyclerview.widget.ThreadUtil">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="androidx.recyclerview.widget.ItemTouchUIUtilImpl" target="androidx.recyclerview.widget.ItemTouchUIUtil">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="androidx.recyclerview.widget.BatchingListUpdateCallback" target="androidx.recyclerview.widget.ListUpdateCallback">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="androidx.recyclerview.widget.AdapterListUpdateCallback" target="androidx.recyclerview.widget.ListUpdateCallback">
+      <point x="0.0" y="-14.0" />
+      <point x="122.0" y="53.0" />
+      <point x="327.3333333333333" y="53.0" />
+      <point x="-62.666666666666686" y="14.0" />
+    </edge>
+    <edge source="androidx.recyclerview.widget.DefaultItemAnimator" target="androidx.recyclerview.widget.SimpleItemAnimator">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="androidx.recyclerview.widget.PagerSnapHelper" target="androidx.recyclerview.widget.SnapHelper">
+      <point x="0.0" y="-14.0" />
+      <point x="274.0" y="204.0" />
+      <point x="211.0" y="204.0" />
+      <point x="31.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="419.0" y="423.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
