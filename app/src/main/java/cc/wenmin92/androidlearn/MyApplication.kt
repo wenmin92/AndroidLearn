@@ -3,6 +3,7 @@ package cc.wenmin92.androidlearn
 import android.app.Application
 import android.util.Log
 
+import cn.leancloud.AVOSCloud
 import timber.log.Timber
 
 class MyApplication : Application() {
@@ -11,6 +12,7 @@ class MyApplication : Application() {
         super.onCreate()
         initLogTool()
         initLeakCanary()
+        initLeanCloud()
     }
 
     /**
@@ -31,6 +33,10 @@ class MyApplication : Application() {
             Timber.plant(ThreadAwareDebugTree())
         else
             Timber.plant(ReleaseTree())
+    }
+
+    private fun initLeanCloud() {
+        AVOSCloud.initialize(this, "dc3UTbiJwju2a177eoesMcXA-gzGzoHsz", "WOqp3lgj1xdW4TSi9AKhfzFr")
     }
 
     open inner class ThreadAwareDebugTree : Timber.DebugTree() {

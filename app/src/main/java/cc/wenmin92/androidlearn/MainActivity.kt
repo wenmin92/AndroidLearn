@@ -14,6 +14,7 @@ import cc.wenmin92.androidlearn.graphics.paint.other.ShadowLayerActivity
 import cc.wenmin92.androidlearn.graphics.paint.path_effect.PathEffectTestActivity
 import cc.wenmin92.androidlearn.graphics.paint.shader.ShaderTestActivity
 import cc.wenmin92.androidlearn.keyboard.KeyboardActivity
+import cc.wenmin92.androidlearn.server.LeanCloudTestActivity
 import cc.wenmin92.androidlearn.service.location.LocationActivity
 import cc.wenmin92.androidlearn.storage.StorageTestActivity
 import cc.wenmin92.androidlearn.text.TextTestActivity
@@ -50,7 +51,7 @@ class MainActivity : AppCompatActivity() {
             testItems.add(TestItem(ViewPagerRvActivity::class.java, "ViewPagerRv"))
             testItems.add(TestItem(TextTestActivity::class.java, "Text"))
             testItems.add(TestItem(NestRecyclerActivity::class.java, "NestRecyclerView"))
-
+            testItems.add(TestItem(LeanCloudTestActivity::class.java, "LeanCloud"))
             return testItems
         }
 
