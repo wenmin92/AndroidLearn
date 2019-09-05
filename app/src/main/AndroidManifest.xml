@@ -10,8 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".widget.NestRecyclerActivity"></activity>
-        <activity android:name=".text.TextTestActivity"></activity>
+        <activity android:name=".net.wifi.WiFiTestActivity"></activity>
+        <activity android:name=".widget.NestRecyclerActivity" />
+        <activity android:name=".text.TextTestActivity" />
         <activity android:name=".view.viewpager.ViewPagerRvActivity" />
         <activity android:name=".graphics.canvas.CanvasTestActivity" />
         <activity android:name=".graphics.paint.other.ShadowLayerActivity" />
@@ -35,8 +36,8 @@
         <activity android:name=".graphics.paint.path_effect.PathEffectTestActivity" />
         <activity android:name=".view.anim.AddViewAnimActivity" />
     </application>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
 </manifest>

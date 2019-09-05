@@ -19,6 +19,7 @@ import cc.wenmin92.androidlearn.graphics.paint.other.ShadowLayerActivity;
 import cc.wenmin92.androidlearn.graphics.paint.path_effect.PathEffectTestActivity;
 import cc.wenmin92.androidlearn.graphics.paint.shader.ShaderTestActivity;
 import cc.wenmin92.androidlearn.keyboard.KeyboardActivity;
+import cc.wenmin92.androidlearn.net.wifi.WiFiTestActivity;
 import cc.wenmin92.androidlearn.service.location.LocationActivity;
 import cc.wenmin92.androidlearn.storage.StorageTestActivity;
 import cc.wenmin92.androidlearn.text.TextTestActivity;
@@ -69,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
         testItems.add(new TestItem(ViewPagerRvActivity.class, "ViewPagerRv"));
         testItems.add(new TestItem(TextTestActivity.class, "Text"));
         testItems.add(new TestItem(NestRecyclerActivity.class, "NestRecyclerView"));
+        testItems.add(new TestItem(WiFiTestActivity.class, "Wi-Fi"));
         return testItems;
     }
 
