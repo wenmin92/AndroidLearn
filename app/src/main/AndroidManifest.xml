@@ -15,7 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".binder.BinderTestActivity"></activity>
+        <activity android:name=".net.wifi.WiFiTestActivity" />
+        <activity android:name=".binder.BinderTestActivity" />
         <activity android:name=".widget.recyclerview.NestRecyclerActivity" />
         <activity android:name=".text.TextTestActivity" />
         <activity android:name=".view.viewpager.ViewPagerRvActivity" />
