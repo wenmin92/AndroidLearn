@@ -26,6 +26,7 @@ import cc.wenmin92.androidlearn.view.statusbar.StatusBarTestActivity
 import cc.wenmin92.androidlearn.view.style.StyleActivity
 import cc.wenmin92.androidlearn.view.viewpager.ViewPagerRvActivity
 import cc.wenmin92.androidlearn.widget.recyclerview.NestRecyclerActivity
+import cc.wenmin92.androidlearn.net.wifi.WiFiTestActivity
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
@@ -50,6 +51,7 @@ class MainActivity : AppCompatActivity() {
             testItems.add(TestItem(ViewPagerRvActivity::class.java, "ViewPagerRv"))
             testItems.add(TestItem(TextTestActivity::class.java, "Text"))
             testItems.add(TestItem(NestRecyclerActivity::class.java, "NestRecyclerView"))
+            testItems.add(TestItem(WiFiTestActivity::class.java, "WifiTest"))
 
             return testItems
         }
