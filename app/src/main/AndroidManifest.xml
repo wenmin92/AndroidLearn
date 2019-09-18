@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="cc.wenmin92.androidlearn">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
@@ -15,6 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".net.NetTestActivity" />
         <activity android:name=".net.wifi.WiFiTestActivity" />
         <activity android:name=".binder.BinderTestActivity" />
         <activity android:name=".widget.recyclerview.NestRecyclerActivity" />

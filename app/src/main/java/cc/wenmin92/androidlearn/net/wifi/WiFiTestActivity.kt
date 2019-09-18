@@ -18,8 +18,24 @@ class WiFiTestActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_wi_fi_test)
 
-        val manager = getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
-        manager.addDefaultNetworkActiveListener { Timber.d("$TAG DefaultNetworkActiveListener#onNetworkActive()") }
+        // val manager = getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+        // manager.addDefaultNetworkActiveListener { Timber.d("$TAG DefaultNetworkActiveListener#onNetworkActive()") }
+
+        val connMgr = getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+        var isWifiConn = false
+        var isMobileConn = false
+        connMgr.allNetworks.forEach { network ->
+            connMgr.getNetworkInfo(network).apply {
+                if (type == ConnectivityManager.TYPE_WIFI) {
+                    isWifiConn = isWifiConn or isConnected
+                }
+                if (type == ConnectivityManager.TYPE_MOBILE) {
+                    isMobileConn = isMobileConn or isConnected
+                }
+            }
+        }
+        Timber.d("$TAG Wifi connected: $isWifiConn")
+        Timber.d("$TAG Mobile connected: $isMobileConn")
     }
 
     fun onClick(view: View) {

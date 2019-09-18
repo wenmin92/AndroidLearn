@@ -14,6 +14,8 @@ import cc.wenmin92.androidlearn.graphics.paint.other.ShadowLayerActivity
 import cc.wenmin92.androidlearn.graphics.paint.path_effect.PathEffectTestActivity
 import cc.wenmin92.androidlearn.graphics.paint.shader.ShaderTestActivity
 import cc.wenmin92.androidlearn.keyboard.KeyboardActivity
+import cc.wenmin92.androidlearn.net.NetTestActivity
+import cc.wenmin92.androidlearn.net.wifi.WiFiTestActivity
 import cc.wenmin92.androidlearn.service.location.LocationActivity
 import cc.wenmin92.androidlearn.storage.StorageTestActivity
 import cc.wenmin92.androidlearn.text.TextTestActivity
@@ -26,7 +28,6 @@ import cc.wenmin92.androidlearn.view.statusbar.StatusBarTestActivity
 import cc.wenmin92.androidlearn.view.style.StyleActivity
 import cc.wenmin92.androidlearn.view.viewpager.ViewPagerRvActivity
 import cc.wenmin92.androidlearn.widget.recyclerview.NestRecyclerActivity
-import cc.wenmin92.androidlearn.net.wifi.WiFiTestActivity
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
@@ -52,6 +53,7 @@ class MainActivity : AppCompatActivity() {
             testItems.add(TestItem(TextTestActivity::class.java, "Text"))
             testItems.add(TestItem(NestRecyclerActivity::class.java, "NestRecyclerView"))
             testItems.add(TestItem(WiFiTestActivity::class.java, "WifiTest"))
+            testItems.add(TestItem(NetTestActivity::class.java, "NetTest"))
 
             return testItems
         }
