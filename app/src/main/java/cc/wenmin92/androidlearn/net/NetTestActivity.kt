@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
 import android.net.*
+import android.net.wifi.WifiManager
 import android.os.Build
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -66,7 +67,8 @@ class NetTestActivity : AppCompatActivity() {
                 .build()
         cm.registerNetworkCallback(request, object : ConnectivityManager.NetworkCallback() {
             override fun onCapabilitiesChanged(network: Network?, networkCapabilities: NetworkCapabilities?) {
-                log("onCapabilitiesChanged: network[$network], networkCapabilities[$networkCapabilities]")
+                log("onCapabilitiesChanged: network[$network], networkCapabilities[$networkCapabilities]\nwifiInfo: ${getWifiInfo()}")
+
             }
 
             override fun onLost(network: Network?) {
@@ -90,12 +92,30 @@ class NetTestActivity : AppCompatActivity() {
             }
         })
 
-        val filter = IntentFilter().apply {  }
+        val filter = IntentFilter().apply {
+            addAction(WifiManager.NETWORK_STATE_CHANGED_ACTION)
+            addAction(WifiManager.WIFI_STATE_CHANGED_ACTION)
+            addAction(WifiManager.RSSI_CHANGED_ACTION)
+            addAction(ConnectivityManager.CONNECTIVITY_ACTION)
+        }
         registerReceiver(object : BroadcastReceiver() {
             override fun onReceive(context: Context?, intent: Intent?) {
-
+                log("Broadcast: receive ${intent?.action ?: "null"}\nwifiInfo: ${getWifiInfo()}")
             }
         }, filter)
+    }
+
+    var lastBSSID = ""
+
+    fun getWifiInfo(): String {
+        val wm = applicationContext.getSystemService(Context.WIFI_SERVICE) as WifiManager
+        var bssidChange = ""
+        val newBssid = wm.connectionInfo.bssid
+        if (lastBSSID != newBssid && newBssid != null) {
+            bssidChange = "\n****************************************\n$lastBSSID --> $newBssid"
+            lastBSSID = newBssid
+        }
+        return wm.connectionInfo.toString() + bssidChange
     }
 
     fun log(msg: String) {
