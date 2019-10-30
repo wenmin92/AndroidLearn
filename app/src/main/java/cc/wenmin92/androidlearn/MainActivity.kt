@@ -1,5 +1,6 @@
 package cc.wenmin92.androidlearn
 
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -13,6 +14,7 @@ import cc.wenmin92.androidlearn.graphics.canvas.CanvasTestActivity
 import cc.wenmin92.androidlearn.graphics.paint.other.ShadowLayerActivity
 import cc.wenmin92.androidlearn.graphics.paint.path_effect.PathEffectTestActivity
 import cc.wenmin92.androidlearn.graphics.paint.shader.ShaderTestActivity
+import cc.wenmin92.androidlearn.jetpack.lifecycle.LifecycleActivity
 import cc.wenmin92.androidlearn.keyboard.KeyboardActivity
 import cc.wenmin92.androidlearn.net.NetTestActivity
 import cc.wenmin92.androidlearn.net.wifi.WiFiTestActivity
@@ -54,6 +56,7 @@ class MainActivity : AppCompatActivity() {
             testItems.add(TestItem(NestRecyclerActivity::class.java, "NestRecyclerView"))
             testItems.add(TestItem(WiFiTestActivity::class.java, "WifiTest"))
             testItems.add(TestItem(NetTestActivity::class.java, "NetTest"))
+            testItems.add(TestItem(LifecycleActivity::class.java, "Lifecycle"))
 
             return testItems
         }
@@ -105,5 +108,5 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    internal class TestItem(var activityClass: Class<*>, var name: String)
+    internal class TestItem(var activityClass: Class<out Activity>, var name: String)
 }

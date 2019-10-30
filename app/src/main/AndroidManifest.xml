@@ -44,6 +44,7 @@
         <activity android:name=".view.custom.CustomViewActivity" />
         <activity android:name=".graphics.paint.path_effect.PathEffectTestActivity" />
         <activity android:name=".view.anim.AddViewAnimActivity" />
+        <activity android:name=".jetpack.lifecycle.LifecycleActivity" />
 
         <service android:name=".binder.TestService" />
     </application>
