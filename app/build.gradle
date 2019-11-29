@@ -22,6 +22,9 @@ android {
         targetCompatibility 1.8
         sourceCompatibility 1.8
     }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
 }
 
 dependencies {
@@ -30,12 +33,12 @@ dependencies {
     // androidx
     implementation 'androidx.appcompat:appcompat:1.1.0'
 
-    implementation 'androidx.recyclerview:recyclerview:1.1.0-rc01'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta3'
-    implementation 'com.google.android.material:material:1.2.0-alpha01'
+    implementation 'com.google.android.material:material:1.2.0-alpha02'
 
     // kotlin
-    implementation 'androidx.core:core-ktx:1.2.0-beta01'
+    implementation 'androidx.core:core-ktx:1.2.0-rc01'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 
     // 测试
