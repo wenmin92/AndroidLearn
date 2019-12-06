@@ -16,6 +16,7 @@ import cc.wenmin92.androidlearn.graphics.paint.path_effect.PathEffectTestActivit
 import cc.wenmin92.androidlearn.graphics.paint.shader.ShaderTestActivity
 import cc.wenmin92.androidlearn.jetpack.lifecycle.LifecycleActivity
 import cc.wenmin92.androidlearn.keyboard.KeyboardActivity
+import cc.wenmin92.androidlearn.lib.poi.POIActivity
 import cc.wenmin92.androidlearn.net.NetTestActivity
 import cc.wenmin92.androidlearn.net.wifi.WiFiTestActivity
 import cc.wenmin92.androidlearn.service.location.LocationActivity
@@ -57,6 +58,7 @@ class MainActivity : AppCompatActivity() {
             testItems.add(TestItem(WiFiTestActivity::class.java, "WifiTest"))
             testItems.add(TestItem(NetTestActivity::class.java, "NetTest"))
             testItems.add(TestItem(LifecycleActivity::class.java, "Lifecycle"))
+            testItems.add(TestItem(POIActivity::class.java, "POI"))
 
             return testItems
         }

@@ -60,6 +60,12 @@ dependencies {
     implementation 'com.blankj:utilcode:1.23.2'
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 
+    // apache poi
+    // https://mvnrepository.com/artifact/org.apache.poi/poi
+    implementation 'org.apache.poi:poi:4.1.1'
+    implementation 'org.apache.poi:poi-scratchpad:4.1.1'
+
+
 }
 repositories {
     mavenCentral()

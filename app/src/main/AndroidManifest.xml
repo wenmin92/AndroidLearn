@@ -17,6 +17,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".lib.poi.POIActivity"></activity>
         <activity android:name=".net.NetTestActivity" />
         <activity android:name=".net.wifi.WiFiTestActivity" />
         <activity android:name=".binder.BinderTestActivity" />
