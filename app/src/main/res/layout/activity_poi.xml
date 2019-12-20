@@ -4,6 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lib.poi.POIActivity">
+    tools:context=".lib.poi.POIActivity"
+    tools:ignore="HardcodedText">
+
+    <Button
+        android:id="@+id/btn_gen_word"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="生成Word"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_gen_pdf"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="生成PDF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_gen_word" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

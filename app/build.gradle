@@ -25,6 +25,11 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    packagingOptions {
+        exclude 'schemaorg_apache_xmlbeans/system/sD023D6490046BA0250A839A9AD24C443/stucharhexnumber4efftype.xsb'
+        exclude 'schemaorg_apache_xmlbeans/system/sD023D6490046BA0250A839A9AD24C443/ctcolorscheme0e99type.xsb'
+    }
 }
 
 dependencies {
@@ -34,7 +39,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.1.0'
 
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta3'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta4'
     implementation 'com.google.android.material:material:1.2.0-alpha02'
 
     // kotlin
@@ -44,8 +49,8 @@ dependencies {
     // 测试
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     testImplementation 'junit:junit:4.13-beta-3'
-    androidTestImplementation 'androidx.test:runner:1.3.0-alpha02'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0-alpha02'
+    androidTestImplementation 'androidx.test:runner:1.3.0-alpha03'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0-alpha03'
 
     // 其他
     // implementation 'io.reactivex.rxjava2:rxjava:2.2.8'
@@ -61,10 +66,22 @@ dependencies {
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 
     // apache poi
-    // https://mvnrepository.com/artifact/org.apache.poi/poi
-    implementation 'org.apache.poi:poi:4.1.1'
-    implementation 'org.apache.poi:poi-scratchpad:4.1.1'
-
+    // implementation 'org.apache.poi:poi:4.1.1'
+    // implementation 'org.apache.poi:poi-scratchpad:4.1.1'
+    // implementation 'org.apache.poi:poi-ooxml:4.1.1'
+    // implementation "com.github.SUPERCILEX.poi-android:poi:3.17"
+    // implementation "com.github.SUPERCILEX.poi-android:proguard:3.17"
+    // implementation('org.apache.poi:poi:3.17') {
+    //     force = true
+    // }
+    // implementation('org.apache.poi:poi-ooxml:3.17') {
+    //     force = true
+    // }
+    // implementation('org.apache.poi:poi-ooxml-schemas:3.17') {
+    //     force = true
+    // }
+    // implementation 'com.fasterxml:aalto-xml:1.1.0'
+    implementation project(path: ':poi', configuration: 'shadow')
 
 }
 repositories {
