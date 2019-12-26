@@ -17,8 +17,6 @@ dependencies {
 
 
 shadowJar {
-    archiveAppendix = 'all'
-
     // exclude 'schemaorg_apache_xmlbeans/attribute/**'
     // exclude 'schemaorg_apache_xmlbeans/attributegroup/**'
     // exclude 'schemaorg_apache_xmlbeans/element/**'
@@ -46,6 +44,7 @@ shadowJar {
         exclude(dependency('com.github.virtuald:curvesapi'))
         exclude(dependency('commons-codec:commons-codec'))
         exclude(dependency('org.apache.commons:commons-collections4'))
+        exclude(dependency('org.apache.commons:commons-lang3'))
     }
 
     // Relocate javax dependencies so Android does not choke

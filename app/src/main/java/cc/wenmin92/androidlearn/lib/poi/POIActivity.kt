@@ -61,7 +61,8 @@ class POIActivity : AppCompatActivity() {
         }
         val baseFont = BaseFont.createFont(fontFile.absolutePath, BaseFont.IDENTITY_H, BaseFont.EMBEDDED)
         val file = File(cacheDir, "empty.pdf")
-        File(cacheDir, "text.docx").inputStream().use { input ->
+        // File(cacheDir, "text.docx").inputStream()
+        assets.open("temp.docx").use { input ->
             file.outputStream().use { output ->
                 val options = PdfOptions.getDefault().apply {
                     fontProvider { familyName, encoding, size, style, color ->
