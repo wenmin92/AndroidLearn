@@ -24,7 +24,7 @@ class POIActivity : AppCompatActivity() {
         System.setProperty("org.apache.poi.javax.xml.stream.XMLEventFactory", "com.fasterxml.aalto.stax.EventFactoryImpl")
 
         // testHWPF()
-        btn_gen_word.setOnClickListener { testXWPF() }
+        // btn_gen_word.setOnClickListener { testXWPF() }
         btn_gen_pdf.setOnClickListener { testDocx2Pdf() }
     }
 
@@ -51,25 +51,20 @@ class POIActivity : AppCompatActivity() {
     }
 
     private fun testDocx2Pdf() {
-        val fontFile = File(cacheDir, "SourceHanSansSC.otf")
+        val fontFile = File(cacheDir, "FZHTJW.TTF")
         if (!fontFile.exists()) {
-            assets.open("SourceHanSansSC.otf").use { input ->
+            assets.open("FZHTJW.TTF").use { input ->
                 fontFile.outputStream().use { output ->
                     input.copyTo(output)
                 }
             }
         }
         val baseFont = BaseFont.createFont(fontFile.absolutePath, BaseFont.IDENTITY_H, BaseFont.EMBEDDED)
-        val file = File(cacheDir, "empty.pdf")
-        // File(cacheDir, "text.docx").inputStream()
+        val file = File(cacheDir, "temp.pdf")
         assets.open("temp.docx").use { input ->
             file.outputStream().use { output ->
                 val options = PdfOptions.getDefault().apply {
                     fontProvider { familyName, encoding, size, style, color ->
-                        // val bfChinese = BaseFont.createFont("c:/Windows/Fonts/simhei.ttf", BaseFont.IDENTITY_H, BaseFont.EMBEDDED)
-                        // val fontChinese = Font(bfChinese, size, style, color)
-                        // if (familyName != null) fontChinese.setFamily(familyName)
-                        // fontChinese
                         Font(baseFont, size, style, color)
                     }
                 }
